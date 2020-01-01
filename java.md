@@ -35,4 +35,18 @@ dependencies {
     compile group: 'org.apache.commons', name: 'commons-lang3', version: '3.9'
 }
 ```
+# About Java
+
+Java is a general-purpose programming language it is class-based and object-oriented. Java was developed by James Gosling at Sun Microsystems ( later acquired by Oracle) the initial release of Java was in 1995. Java 11 is the latest long-term supported version (LTS). As of today, Java is the world's number one language with a 12 million developer community, 5 million students studying worldwide and it's #1 choice for the cloud development.
+
+# Tutorial & Syntax help 
+
+## Loops
+
+## Classes 
+
+## Collections
+
+For more detailed Java tutorial checkout the tutorial 
+
 
