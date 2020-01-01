@@ -19,7 +19,7 @@ class Input {
 # Adding dependencies 
 We support Gradle for dependency management. Users can add dependencies in the `build.gradle` file and use them in their programs. When you add the dependencies for the first time the first run might be a little slow as we download the dependencies but the subsequent runs will be faster. Following is a sample Gradle configuration shows how to add dependencies
 
-```groovy
+```java
 apply plugin:'application'
 mainClassName = 'HelloWorld'
 
