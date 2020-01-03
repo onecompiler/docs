@@ -1,6 +1,6 @@
 # Python Online Compiler
 
-OneCompiler's Python online compiler is one of the robust, feature-rich online compilers for python language, supporting both the versions which are Python 3 and Python 2.7. Users can write, run and share the code online and can track all the code history. Getting started with the OneCompiler's Python editor is easy and fast. The editor shows sample boilerplate code when you choose language as Python or Python3. OneCompiler also has reference programs, where you can look for the sample code and start learning.
+OneCompiler's Python online compiler is one of the robust, feature-rich online compilers for python language, supporting both the versions which are Python 3 and Python 2.7. Users can write, run and share the code online and can track all the code history. Getting started with the OneCompiler's Python editor is easy and fast. The editor shows sample boilerplate code where you choose language as Python or Python3. OneCompiler also has reference programs, where you can look for the sample code and start learning.
 
 ## Taking inputs (stdin)
 OneCompiler's python online editor supports stdin and users can give inputs to programs using the STDIN textbox under the I/O tab. Following is a sample python program which takes name as input and print your name with hello.
