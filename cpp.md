@@ -1,8 +1,8 @@
 # C++ Online Compiler
 
-OneCompiler's C++ online compiler is one of the robust, feature-rich online compilers for C++ language, running on the latest version C++ 17. Users can write, run and share the code online and can track all the code history. Getting started with the OneCompiler's C++ compiler is simple and pretty fast. The editor shows sample boilerplate code where you can choose language as `C++`. OneCompiler also has reference programs, where you can look for the sample code and start learning.
+Write, Run & Share C++ code online using OneCompiler's C++ online compiler. It's one of the robust, feature-rich online compilers for C++ language, running on the latest version 17. Getting started with the OneCompiler's C++ compiler is simple and pretty fast. The editor shows sample boilerplate code where you can choose language as `C++`. OneCompiler also has reference programs, where you can look for the sample code to get started with.
 
-## Taking inputs (stdin)
+# Taking inputs (stdin)
 OneCompiler's C++ online compiler supports stdin and users can give inputs to programs using the STDIN textbox under the I/O tab. Following is a sample program which takes name as input and print your name with hello.
 
 ```c
@@ -31,35 +31,35 @@ C++ is a widely used middle-level programming language.
 * C++ provides alot of inbuilt functions and also supports dynamic memory allocation.
 * Like C, C++ also allows you to play with memory using Pointers.
 
-## Loops
-### IF-ELSE
+# Syntax help
 
-When ever you want to perform a set of operations based on a condition IF-ELSE is used.
+## Loops
+### If-Else
+
+When ever you want to perform a set of operations based on a condition If-Else is used.
 
 ```c
-if(conditional-expression)
-{
-    //code
+if(conditional-expression) {
+   //code
 }
-else
-{
-    //code
+else {
+   //code
 }
 
-You can also use if-else for nested IFs and IF-ELSE-IF ladder when multiple conditions are to be performed on a single variable.
+You can also use if-else for nested Ifs and If-Else-If ladder when multiple conditions are to be performed on a single variable.
 
-### SWITCH
+### Switch
 
-Switch is an alternative to IF-ELSE-IF ladder.
+Switch is an alternative to If-Else-If ladder.
 
 ```c
 switch(conditional-expression){    
 case value1:    
- //code    
- break;  //optional  
+ // code    
+ break;  // optional  
 case value2:    
- //code    
- break;  //optional  
+ // code    
+ break;  // optional  
 ......    
     
 default:     
@@ -67,38 +67,38 @@ default:
 } 
 ```
 
-### FOR
+### For
 
 For loop is used to iterate a set of statements based on a condition.
 
 ```c
 for(Initialization; Condition; Increment/decrement){  
-//code  
+  //code  
 } 
 ```
 
-### WHILE
+### While
 
 While is also used to iterate a set of statements based on a condition. Usually while is preferred when number of ierations is not known in advance.
 
 ```c
-while(condition){  
-//code 
+while (condition) {  
+// code 
 }  
 ```
 
-### DO-WHILE
+### Dd-While
 Do-while is also used to iterate a set of statements based on a condition. It is mostly used when you need to execute the statements atleast once.
 
 ```c
-do{  
-//code 
-}while(condition); 
+do {  
+ // code 
+} while (condition); 
 ```
 
 ## Functions
 
-Functions is a sub-routine which contains set of statements. Usually functions are written when multiple calls are required to same set of statements which increases re-usuability and modularity. Function gets run only when it is called.
+Function is a sub-routine which contains set of statements. Usually functions are written when multiple calls are required to same set of statements which increases re-usuability and modularity. Function gets run only when it is called.
 
 ### How to declare a Function
 
@@ -113,8 +113,6 @@ function_name (parameters)
 ```
 ### How to define a Function
 
-return_type function_name(parameters){  
-//code
+return_type function_name(parameters) {  
+ // code
 }
-
-For more detailed C++ concepts checkout our beginner's tutorial 
