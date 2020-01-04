@@ -1,15 +1,16 @@
 # Python Online Compiler
 
-OneCompiler's Python online compiler is one of the robust, feature-rich online compilers for python language, supporting both the versions which are Python 3 and Python 2.7. Users can write, run and share the code online and can track all the code history. Getting started with the OneCompiler's Python editor is easy and fast. The editor shows sample boilerplate code where you choose language as Python or Python3. OneCompiler also has reference programs, where you can look for the sample code and start learning.
+Write, Run & Share Python code online using OneCompiler's Python online compiler. It's one of the robust, feature-rich online compilers for python language, supporting both the versions which are Python 3 and Python 2.7. Getting started with the OneCompiler's Python editor is easy and fast. The editor shows sample boilerplate code where you choose language as Python or Python2. OneCompiler also has reference programs, where you can look for the sample code and start learning.
 
-## Taking inputs (stdin)
+# Taking inputs (stdin)
 OneCompiler's python online editor supports stdin and users can give inputs to programs using the STDIN textbox under the I/O tab. Following is a sample python program which takes name as input and print your name with hello.
 
 ```py
 import sys
-name=sys.stdin.readline()
+name = sys.stdin.readline()
 print("Hello "+ name)
 ```
+
 # About Python
 
 Python is a very popular general-purpose programming language which was created by Guido van Rossum, and released in 1991. It is very popular for web development and you can build almost anything like mobile apps, web apps, tools, data analytics, machine learning etc. It is designed to be simple and easy like english language. It's is highly productive and efficient making it a very popular language. 
@@ -18,7 +19,7 @@ Python is a very popular general-purpose programming language which was created 
 
 ## Loops
 
-### IF-ELSE
+### If-Else
 
 When ever you want to perform a set of operations based on a condition IF-ELSE is used.
 
@@ -34,7 +35,7 @@ else:
 #### Note
 Indentation is very important in Python, make sure the indentation is followed correctly 
 
-### FOR
+### For
 
 For loop is used to iterate over arrays(list, tuple, set, dictionary) or strings.
 
@@ -45,7 +46,7 @@ for i in mylist:
     print(i)
 ```
 
-### WHILE
+### While
 
 While is also used to iterate a set of statements based on a condition. Usually while is preferred when number of ierations is not known in advance.
 
@@ -58,6 +59,7 @@ while condition
 ## Collections
 
 There are four types of collections in Python.
+
 ### 1. List
 List is a collection which is ordered and can be changed. Lists are specified in square brackets.
 
@@ -104,8 +106,3 @@ mydict = {
 }
 print(mydict)
 ```
-
-For more detailed Python concepts checkout our beginner's tutorial 
-
-
-
