@@ -1,18 +1,23 @@
 # Javascript Online Compiler
 
-OneCompiler's Javascript online compiler is one of the robust, feature-rich online compilers for Javascript language,running on the latest version Javascipt 1.8.5. Users can write, run and share the code online and can track all the code history. Getting started with the OneCompiler's Javascript editor is easy and fast. The editor shows sample boilerplate code where you choose language as Javascript. OneCompiler also has reference programs, where you can look for the sample code and start learning. 
+Write, Run & Share Javascript code online using OneCompiler's Javascript online compiler. It's one of the robust, feature-rich online compilers for Javascript language. Getting started with the OneCompiler's Javascript editor is easy and fast. The editor shows sample boilerplate code where you choose language as Javascript. OneCompiler also has reference programs, where you can look for the sample code to get started with.
 
 # About Javascript
+
 Javascript(JS) is a object-oriented programming language which adhere to ECMA Script Standards. Javascript is required to design the behaviour of the web pages.
 
-## Key Features
+# Key Features
+
 * Open-source
 * Just-in-time compiled language
 * Embedded along with HTML and makes web pages alive
 * Originally names as LiveScript.
 * Executable in both browser and server which has Javascript engines like V8(chrome), SpiderMonkey(Firefox) etc.
 
-## Keywords
+# Syntax help
+
+## variable declaration
+
 |Keyword|Description|Scope|
 |----|----|----|
 |var| Var is used to declare variables(old way of declaring variables)| Function or global scope| 
@@ -33,17 +38,16 @@ let arrayName = new Array("value1","value2",..etc);
 ## Example
 
 ```javascript
-let mobiles=["iPhone", "Samsung", "Pixel"];
+let mobiles = ["iPhone", "Samsung", "Pixel"];
 
 // accessing an array
-
 console.log(mobiles[0]);
 
-//changing an array element
+// changing an array element
 mobiles[3] = "Nokia";
 ```
 
-## Arrow function
+## Arrow functions
 Arrow Functions helps developers to write code in concise way, it’s introduced in ES6.
 Arrow functions can be written in multiple ways. Below are couple of ways to use arrow function but it can be written in many other ways as well. 
 
@@ -59,14 +63,12 @@ Arrow functions can be written in multiple ways. Below are couple of ways to use
 
 ```javascript
 const numbers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
-
 const squaresOfEvenNumbers = numbers.filter(ele => ele % 2 == 0)
                                     .map(ele => ele ** 2);
-
 console.log(squaresOfEvenNumbers);
 ```
 ## Loops
-### 1. IF
+### 1. If
 
 IF is used to execute a block of code based on a condition. 
 
@@ -77,9 +79,9 @@ if(condition){
     // code
 }
 ```
-### 2. IF-ELSE
+### 2. If-Else
 
-ELSE part is used to execute the block of code when the condition fails.
+Else part is used to execute the block of code when the condition fails.
 
 ### Syntax
 ```javascript
@@ -91,9 +93,9 @@ if(condition){
 ```
 
 
-### 3. SWITCH
+### 3. Switch
 
-SWITCH is used to replace nested IF-ELSE statements.
+Switch is used to replace nested If-Else statements.
 
 ### Syntax
 ```javascript
@@ -112,7 +114,7 @@ switch(condition){
 ```
 
 
-### FOR
+### For
 
 For loop is used to iterate a set of statements based on a condition.
 
@@ -122,23 +124,23 @@ for(Initialization; Condition; Increment/decrement){
 } 
 ```
 
-### WHILE
+### While
 
 While is also used to iterate a set of statements based on a condition. Usually while is preferred when number of ierations is not known in advance.
 
 ```javascript
-while(condition){  
-//code 
+while (condition) {  
+  // code 
 }  
 ```
 
-### DO-WHILE
+### Do-While
 Do-while is also used to iterate a set of statements based on a condition. It is mostly used when you need to execute the statements atleast once.
 
 ```javascript
-do{  
-//code 
-}while(condition); 
+do {  
+  // code 
+} while (condition); 
 ```
 
 ## Classes
@@ -164,5 +166,3 @@ class Mobile {
 
 mbl = new Mobile("iPhone");
 ```
-
-For more concepts on Javascript, check out our beginner's tutorial.
