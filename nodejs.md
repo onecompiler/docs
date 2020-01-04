@@ -1,6 +1,6 @@
 # NodeJS Online Compiler
 
-OneCompiler's NodeJS online compiler is one of the robust, feature-rich online compilers for NodeJS language,running on the latest version NodeJS 13. Users can write, run and share the code online and can track all the code history. Getting started with the OneCompiler's NodeJS editor is easy and fast. The editor shows sample boilerplate code where you choose language as NodeJS. OneCompiler also has reference programs, where you can look for the sample code and start learning. You can provide the dependencies and other information in `package.json`.
+Write, Run & Share NodeJS code online using OneCompiler's NodeJS online compiler. It's one of the robust, feature-rich online compilers for NodeJS language,running on the latest LTS version NodeJS 12.14.0. Getting started with the OneCompiler's NodeJS editor is easy and fast. The editor shows sample boilerplate code where you choose language as NodeJS. OneCompiler also has reference programs, where you can look for the sample code and start learning. You can provide the dependencies in `package.json`.
 
 # About NodeJS
 
@@ -20,9 +20,9 @@ Node.js is a free and open-source server environment. Node.js is very popular in
 
 Express is one of the most popular web application framework in the NodeJS echosystem.
 
-* pretty fast
+* Pretty fast
 * Minimalist
-* unopinionated
+* Unopinionated
 * Very flexible
 
 ## How to install express
@@ -62,5 +62,3 @@ app.delete('/:id', function (req, res) {
   res.send('DELETE request for id:'. req.params.id)
 })
 ```
-
-For more concepts on NodeJS, check out our beginner's tutorial.
