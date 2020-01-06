@@ -51,8 +51,6 @@ mobiles[3] = "Nokia";
 Arrow Functions helps developers to write code in concise way, it’s introduced in ES6.
 Arrow functions can be written in multiple ways. Below are couple of ways to use arrow function but it can be written in many other ways as well. 
 
-## 1. With no argument
-
 ### Syntax
 
 ```javascript
