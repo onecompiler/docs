@@ -27,7 +27,7 @@ Javascript(JS) is a object-oriented programming language which adhere to ECMA Sc
 ## Arrays
 An array is a collection of items or values. 
 
-## Syntax
+### Syntax:
 
 ```javascript
 let arrayName = [value1, value2,..etc];
@@ -35,7 +35,7 @@ let arrayName = [value1, value2,..etc];
 let arrayName = new Array("value1","value2",..etc);
 ```
 
-## Example
+### Example:
 
 ```javascript
 let mobiles = ["iPhone", "Samsung", "Pixel"];
@@ -51,13 +51,13 @@ mobiles[3] = "Nokia";
 Arrow Functions helps developers to write code in concise way, it’s introduced in ES6.
 Arrow functions can be written in multiple ways. Below are couple of ways to use arrow function but it can be written in many other ways as well. 
 
-### Syntax
+### Syntax:
 
 ```javascript
 () => expression
 ```
 
-### Example
+### Example:
 
 ```javascript
 const numbers = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
@@ -66,7 +66,7 @@ const squaresOfEvenNumbers = numbers.filter(ele => ele % 2 == 0)
 console.log(squaresOfEvenNumbers);
 ```
 ## Loops
-### 1. If
+### 1. If:
 
 IF is used to execute a block of code based on a condition. 
 
@@ -77,7 +77,7 @@ if(condition){
     // code
 }
 ```
-### 2. If-Else
+### 2. If-Else:
 
 Else part is used to execute the block of code when the condition fails.
 
@@ -91,7 +91,7 @@ if(condition){
 ```
 
 
-### 3. Switch
+### 3. Switch:
 
 Switch is used to replace nested If-Else statements.
 
@@ -144,7 +144,7 @@ do {
 ## Classes
 ES6 introduced classes along with OOPS concepts in JS. Class is similar to a function which you can think like kind of template which will get called when ever you initialize class.
 
-## Syntax
+## Syntax:
 ```javascript
 class className {
   constructor() { ... } //Mandatory Class method
@@ -154,7 +154,7 @@ class className {
 }
 ```
 
-## Example
+## Example:
 ```javascript
 class Mobile {
   constructor(model) {

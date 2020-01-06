@@ -34,7 +34,7 @@ C++ is a widely used middle-level programming language.
 # Syntax help
 
 ## Loops
-### If-Else
+### 1. If-Else:
 
 When ever you want to perform a set of operations based on a condition If-Else is used.
 
@@ -48,7 +48,7 @@ else {
 
 You can also use if-else for nested Ifs and If-Else-If ladder when multiple conditions are to be performed on a single variable.
 
-### Switch
+### 2. Switch:
 
 Switch is an alternative to If-Else-If ladder.
 
@@ -67,7 +67,7 @@ default:
 } 
 ```
 
-### For
+### 3. For:
 
 For loop is used to iterate a set of statements based on a condition.
 
@@ -77,7 +77,7 @@ for(Initialization; Condition; Increment/decrement){
 } 
 ```
 
-### While
+### 4. While:
 
 While is also used to iterate a set of statements based on a condition. Usually while is preferred when number of ierations is not known in advance.
 
@@ -87,7 +87,7 @@ while (condition) {
 }  
 ```
 
-### Dd-While
+### 5. Do-While:
 Do-while is also used to iterate a set of statements based on a condition. It is mostly used when you need to execute the statements atleast once.
 
 ```c
@@ -100,18 +100,18 @@ do {
 
 Function is a sub-routine which contains set of statements. Usually functions are written when multiple calls are required to same set of statements which increases re-usuability and modularity. Function gets run only when it is called.
 
-### How to declare a Function
+### How to declare a Function:
 
 ```c
 return_type function_name(parameters);
 ```
 
-### How to call a Function
+### How to call a Function:
 
 ```c
 function_name (parameters)
 ```
-### How to define a Function
+### How to define a Function:
 
 return_type function_name(parameters) {  
  // code

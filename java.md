@@ -42,7 +42,7 @@ Java is a very popular general-purpose programming language, it is class-based a
 # Syntax help 
 
 ## Loops
-### If Else:
+### 1. If Else:
 
 When ever you want to perform a set of operations based on a condition If-Else is used.
 
@@ -53,7 +53,7 @@ if(conditional-expression) {
   // code
 }
 ```
-### Switch
+### 2. Switch:
 
 Switch is an alternative to If-Else-If ladder and to select one among many blocks of code.
 
@@ -71,7 +71,7 @@ default:
  //code to be executed when all the above cases are not matched;    
 } 
 ```
-### For
+### 3. For:
 
 For loop is used to iterate a set of statements based on a condition. Usually for loop is preferred when number of ierations is known in advance.
 
@@ -80,7 +80,7 @@ for(Initialization; Condition; Increment/decrement){
 //code  
 } 
 ```
-### While
+### 4. While:
 
 While is also used to iterate a set of statements based on a condition. Usually while is preferred when number of ierations is not known in advance.
 
@@ -89,7 +89,7 @@ while(condition){
  // code 
 }  
 ```
-### Do-While
+### 5. Do-While:
 Do-while is also used to iterate a set of statements based on a condition. It is mostly used when you need to execute the statements atleast once.
 
 ```java
@@ -101,11 +101,11 @@ do {
 
 Class is the blueprint of an object, which is also referred as user-defined data type with variables and functions. Object is a basic unit in OOP, and is an instance of the class.
 
-### How to create a Class
+### How to create a Class:
 
 `class` keyword is required to create a class.
 
-### Example
+### Example:
 
 ```java
 class Mobile {
@@ -115,12 +115,12 @@ class Mobile {
 };
 
 ```
-### How to create a Object
+### How to create a Object:
 
 ```java
 Mobile m1;
 ```
-### How to define methods in a class
+### How to define methods in a class:
 
 ```java
 public class Greeting {

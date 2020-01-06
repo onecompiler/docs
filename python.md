@@ -19,7 +19,7 @@ Python is a very popular general-purpose programming language which was created 
 
 ## Loops
 
-### If-Else
+### 1. If-Else:
 
 When ever you want to perform a set of operations based on a condition IF-ELSE is used.
 
@@ -32,21 +32,21 @@ else:
     #code
 ```
 
-#### Note
+### Note:
 Indentation is very important in Python, make sure the indentation is followed correctly 
 
-### For
+### 2. For:
 
 For loop is used to iterate over arrays(list, tuple, set, dictionary) or strings.
 
-### Example
+### Example:
 ```py
 mylist=("Iphone","Pixel","Samsung")
 for i in mylist:
     print(i)
 ```
 
-### While
+### 3. While:
 
 While is also used to iterate a set of statements based on a condition. Usually while is preferred when number of ierations is not known in advance.
 
@@ -60,19 +60,19 @@ while condition
 
 There are four types of collections in Python.
 
-### 1. List
+### 1. List:
 List is a collection which is ordered and can be changed. Lists are specified in square brackets.
 
-### Example
+### Example:
 ```py
 mylist=["iPhone","Pixel","Samsung"]
 print(mylist)
 ```
 
-### 2. Tuple
+### 2. Tuple:
 Tuple is a collection which is ordered and can not be changed. Tuples are specified in round brackets.
 
-### Example
+### Example:
 ```py
 myTuple=("iPhone","Pixel","Samsung")
 print(myTuple)
@@ -85,20 +85,20 @@ myTuple[1]="onePlus"
 print(myTuple)
 ```
 
-### 3. Set
+### 3. Set:
 Set is a collection which is unordered and unindexed. Sets are specified in curly brackets.
 
-### Example
+### Example:
 ```py
 myset{"iPhone","Pixel","Samsung"}
 print{myset}
 ```
 
-### 4. Dictionary
+### 4. Dictionary:
 
 Dictionary is a collection of key value pairs which is unordered, can be changed, and indexed. They are written in curly brackets with key - value pairs. 
 
-### Example
+### Example:
 ```py
 mydict = {
     "brand" :"iPhone",
