@@ -114,7 +114,7 @@ switch(condition){
 ```
 
 
-### For
+### 4. For
 
 For loop is used to iterate a set of statements based on a condition.
 
@@ -124,7 +124,7 @@ for(Initialization; Condition; Increment/decrement){
 } 
 ```
 
-### While
+### 5. While
 
 While is also used to iterate a set of statements based on a condition. Usually while is preferred when number of ierations is not known in advance.
 
@@ -134,7 +134,7 @@ while (condition) {
 }  
 ```
 
-### Do-While
+### 6. Do-While
 Do-while is also used to iterate a set of statements based on a condition. It is mostly used when you need to execute the statements atleast once.
 
 ```javascript
