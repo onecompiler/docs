@@ -22,6 +22,8 @@ Ada is suitable for all development needs and it is extremely good for developin
 
 It's a Good choice for Rapid Application Development, Extreme Programming. It is a very strong and statically typed language.
 
+
+# Syntax help
 ## Loops
 ### 1. Infinite loop:
 

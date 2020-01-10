@@ -23,6 +23,8 @@ Groovy is an object-oriented programming language based on java. Apache Groovy i
 * Concise and much simpler compared to Java
 * Can be used as both programming language and scripting language.
 
+
+# Syntax help
 ## Data Types
 
 | Data type | Description | Range|

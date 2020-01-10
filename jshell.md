@@ -7,6 +7,9 @@ Jshell is Java’s first official REPL (READ-EVAL-PRINT-LOOP) tool which was int
 
 In short, Jshell creates a simple and easy programming environment in the command line which can take input from user, read it and then prints the result.
 
+
+# Syntax help
+
 ## Variables
 When you evaluate any valid java expression, the result will be stored in the system defined variables.
 

@@ -24,6 +24,8 @@ Haskell is purely a functional programming language which was introduced in 1990
 * Glasgow Haskell Compiler (GHC), most widely used Haskell compiler also written in Haskell.
 * Data is immutable
 
+
+# Syntax help
 ## Data Types
 
 | Data-type | Description |

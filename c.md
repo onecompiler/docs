@@ -34,7 +34,7 @@ C language is one of the most popular general-purpose programming language devel
 
 ## Loops
 
-### If-Else
+### 1. If-Else:
 
 When ever you want to perform a set of operations based on a condition IF-ELSE is used.
 
@@ -48,7 +48,7 @@ if(conditional-expression) {
 
 You can also use if-else for nested Ifs and If-Else-If ladder when multiple conditions are to be performed on a single variable.
 
-### Switch
+### 2. Switch:
 
 Switch is an alternative to If-Else-If ladder.
 
@@ -66,7 +66,7 @@ default:
  // code to be executed when all the above cases are not matched;    
 } 
 ```
-### For
+### 3. For:
 
 For loop is used to iterate a set of statements based on a condition.
 
@@ -75,7 +75,7 @@ for(Initialization; Condition; Increment/decrement){
   // code  
 } 
 ```
-### While
+### 4. While:
 
 While is also used to iterate a set of statements based on a condition. Usually while is preferred when number of ierations is not known in advance.
 
@@ -84,7 +84,7 @@ while(condition) {
  // code 
 }  
 ```
-### Do-While
+### 5. Do-While:
 Do-while is also used to iterate a set of statements based on a condition. It is mostly used when you need to execute the statements atleast once.
 
 ```c
