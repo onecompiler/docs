@@ -1,17 +1,17 @@
-# LUA online compiler
+# Lua online compiler
 
-Write, Run & Share LUA code online using OneCompiler's LUA online compiler. It's one of the robust, feature-rich online compilers for LUA language, running the latest LUA version 5.3. Getting started with the OneCompiler's LUA editor is easy and fast. The editor shows sample boilerplate code where you can choose language as LUA. OneCompiler also has reference programs, where you can look for the sample code and start learning. Happy learning!!
+Write, Run & Share Lua code online using OneCompiler's Lua online compiler. It's one of the robust, feature-rich online compilers for Lua language, running the latest Lua version 5.3. Getting started with the OneCompiler's Lua editor is easy and fast. The editor shows sample boilerplate code where you can choose language as Lua. OneCompiler also has reference programs, where you can look for the sample code and start learning. Happy learning!!
 
 # Taking inputs (stdin)
-OneCompiler's LUA online editor supports stdin and users can give inputs to programs using the STDIN textbox under the I/O tab. Following is a sample LUA program which takes name as input and prints hello message with your name.
+OneCompiler's Lua online editor supports stdin and users can give inputs to programs using the STDIN textbox under the I/O tab. Following is a sample Lua program which takes name as input and prints hello message with your name.
 
 ```lua
 name = io.read("*a")
 print ("Hello ", name)
 ```
-# About LUA
+# About Lua
 
-LUA is a light weight embeddable scripting language which is built on top of C. It is used in almost all kind of applications like games, web applications, mobile applications, image processing etc. It's a very powerful, fast, easy to learn, open-source scripting language.
+Lua is a light weight embeddable scripting language which is built on top of C. It is used in almost all kind of applications like games, web applications, mobile applications, image processing etc. It's a very powerful, fast, easy to learn, open-source scripting language.
 
 # Syntax help
 
