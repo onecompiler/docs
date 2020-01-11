@@ -1,0 +1,88 @@
+# LUA online compiler
+
+Write, Run & Share LUA code online using OneCompiler's LUA online compiler. It's one of the robust, feature-rich online compilers for LUA language, running the latest LUA version 5.3. Getting started with the OneCompiler's LUA editor is easy and fast. The editor shows sample boilerplate code where you can choose language as LUA. OneCompiler also has reference programs, where you can look for the sample code and start learning. Happy learning!!
+
+# Taking inputs (stdin)
+OneCompiler's LUA online editor supports stdin and users can give inputs to programs using the STDIN textbox under the I/O tab. Following is a sample LUA program which takes name as input and prints hello message with your name.
+
+```lua
+name = io.read("*a")
+print ("Hello ", name)
+```
+# About LUA
+
+LUA is a light weight embeddable scripting language which is built on top of C. It is used in almost all kind of applications like games, web applications, mobile applications, image processing etc. It's a very powerful, fast, easy to learn, open-source scripting language.
+
+# Syntax help
+
+## Variables
+
+* By default all the variables declared are global variables
+* if the variables are explicitly mentioned as local then they are local variables.
+* Lua is a dynamically typed language and hence only the values will have types not the variables.
+
+### Examples
+
+```lua
+-- global variables
+a = 10
+
+-- local variables
+
+local x = 30
+```
+
+|Value Type| Description|
+|-----|-----|
+|number| Represents numbers|
+|string| Represents text|
+|nil|Differentiates values whether it has data or not|
+|boolean|Value can be either true or false|
+|function|Represents a sub-routine|
+|userdata|Represents arbitary C data|
+|thread|Represents independent threads of execution.|
+|table|Can hold any value except nil|
+
+
+## Loops
+
+### 1. While:
+
+While is also used to iterate a set of statements based on a condition. Usually while is preferred when number of ierations is not known in advance.
+
+```lua
+while(condition)
+do
+--code
+end
+```
+### 2. Repeat-Until:
+
+Repeat-Until is also used to iterate a set of statements based on a condition. It is very similar to Do-While, it is mostly used when you need to execute the statements atleast once.
+
+```lua
+repeat
+   --code
+until( condition )
+```
+
+### 3. For:
+For loop is used to iterate a set of statements based on a condition.
+
+```lua
+for init,max/min value, increment
+do
+   --code
+end
+```
+
+##  Functions
+Function is a sub-routine which contains set of statements. Usually functions are written when multiple calls are required to same set of statements which increases re-usuability and modularity.
+
+
+```lua
+optional_function_scope function function_name( argument1, argument2, argument3........, argumentn)
+--code
+return params with comma seperated
+end
+```
