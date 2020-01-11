@@ -5,7 +5,7 @@ Write, Run & Share Lua code online using OneCompiler's Lua online compiler. It's
 # Taking inputs (stdin)
 OneCompiler's Lua online editor supports stdin and users can give inputs to programs using the STDIN textbox under the I/O tab. Following is a sample Lua program which takes name as input and prints hello message with your name.
 
-```lua
+```c
 name = io.read("*a")
 print ("Hello ", name)
 ```
@@ -23,7 +23,7 @@ Lua is a light weight embeddable scripting language which is built on top of C. 
 
 ### Examples
 
-```lua
+```c
 -- global variables
 a = 10
 
@@ -50,7 +50,7 @@ local x = 30
 
 While is also used to iterate a set of statements based on a condition. Usually while is preferred when number of ierations is not known in advance.
 
-```lua
+```c
 while(condition)
 do
 --code
@@ -60,7 +60,7 @@ end
 
 Repeat-Until is also used to iterate a set of statements based on a condition. It is very similar to Do-While, it is mostly used when you need to execute the statements atleast once.
 
-```lua
+```c
 repeat
    --code
 until( condition )
@@ -69,7 +69,7 @@ until( condition )
 ### 3. For:
 For loop is used to iterate a set of statements based on a condition.
 
-```lua
+```c
 for init,max/min value, increment
 do
    --code
@@ -80,7 +80,7 @@ end
 Function is a sub-routine which contains set of statements. Usually functions are written when multiple calls are required to same set of statements which increases re-usuability and modularity.
 
 
-```lua
+```c
 optional_function_scope function function_name( argument1, argument2, argument3........, argumentn)
 --code
 return params with comma seperated
