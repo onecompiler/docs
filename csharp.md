@@ -1,4 +1,4 @@
-# C# Online Compiler
+# C Sharp Online Compiler
 
 Write, Run & Share C# code online using OneCompiler's C# online compiler. It's one of the robust, feature-rich online compilers for C# language, running on the latest version 8.0. Getting started with the OneCompiler's C# compiler is simple and pretty fast. The editor shows sample boilerplate code where you can choose language as `C#`. OneCompiler also has reference programs, where you can look for the sample code to get started with.
 
@@ -10,19 +10,19 @@ using System;
  
 namespace Sample
 {
-	class Test
-	{
-		public static void Main(string[] args)
-		{
-			string name;
-			name = Console.ReadLine();
-			Console.WriteLine("Hello {0} ", name);
-		}
+  class Test
+    {
+      public static void Main(string[] args)
+       {
+         string name;
+         name = Console.ReadLine();
+         Console.WriteLine("Hello {0} ", name);
 	}
+     }
 }
 ```
 
-# About C#
+# About C Sharp
 
 C# is a general purpose object-oriented programming language by Microsoft. Though initially it was developed as part of .net but later it was approved by ECMA and ISO standards.
 
@@ -54,12 +54,10 @@ datatype variable-name = value;
 When ever you want to perform a set of operations based on a condition or set of few conditions IF-ELSE is used.
 
 ```c#
-if(conditional-expression) 
-{
+if(conditional-expression) {
    // code
 } 
-else
-{
+else {
    // code
 }
 ```
@@ -89,7 +87,7 @@ default:
 For loop is used to iterate a set of statements based on a condition.
 
 ```c#
-for(Initialization; Condition; Increment/decrement){  
+for(Initialization; Condition; Increment/decrement) {
   // code  
 } 
 ```
@@ -98,9 +96,9 @@ for(Initialization; Condition; Increment/decrement){
 While is also used to iterate a set of statements based on a condition. Usually while is preferred when number of ierations is not known in advance.
 
 ```c#
-while(condition) {  
+while(condition) {
  // code 
-}  
+}
 ```
 ### 5. Do-While:
 Do-while is also used to iterate a set of statements based on a condition. It is mostly used when you need to execute the statements atleast once.
@@ -108,7 +106,7 @@ Do-while is also used to iterate a set of statements based on a condition. It is
 ```c#
 do {
   // code 
-} while (condition); 
+} while (condition);
 ```
 
 ## Arrays
