@@ -45,7 +45,7 @@ if(conditional-expression) {
 else {
    //code
 }
-
+```
 You can also use if-else for nested Ifs and If-Else-If ladder when multiple conditions are to be performed on a single variable.
 
 ### 2. Switch:
