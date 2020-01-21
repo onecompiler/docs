@@ -1,6 +1,6 @@
 # Common Lisp online compiler
 
-Write, Run & Share Common Lisp code online using OneCompiler's Common Lisp online compiler. It's one of the robust, feature-rich online compilers for Common Lisp language, running the latest Common Lisp version 5.3. Getting started with the OneCompiler's Common Lisp editor is easy and fast. The editor shows sample boilerplate code where you can choose language as Common Lisp. OneCompiler also has reference programs, where you can look for the sample code and start learning. Happy learning!!
+Write, Run & Share Common Lisp code online using OneCompiler's Common Lisp online compiler. It's one of the robust, feature-rich online compilers for Common Lisp language, running the latest Common Lisp version 5.3. Getting started with the OneCompiler's Common Lisp editor is easy and fast. The editor shows sample boilerplate code  when you choose language as Common Lisp. OneCompiler also has reference programs, where you can look for the sample code and start learning. Happy learning!!
 
 # Taking inputs (stdin)
 OneCompiler's Common Lisp online editor supports stdin and users can give inputs to programs using the STDIN textbox under the I/O tab. Following is a sample Common Lisp program which takes name as input and prints hello message with your name.

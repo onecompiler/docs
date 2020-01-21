@@ -1,7 +1,6 @@
 # Assembly Online Compiler
 
-Write, Run & Share Assembly code online using OneCompiler's Assembly online compiler. It's one of the robust, feature-rich online compilers for Assembly language. Getting started with the OneCompiler's Assembly compiler is simple and pretty fast. The editor shows sample boilerplate code where you can choose language as `Assembly`. OneCompiler also has reference programs, where you can look for the sample code to get started with.
-
+Write, Run & Share Assembly code online using OneCompiler's Assembly online compiler. It's one of the robust, feature-rich online compilers for Assembly language. Getting started with the OneCompiler's Assembly compiler is simple and pretty fast. The editor shows sample boilerplate code when you choose language as `Assembly`. OneCompiler also has reference programs, where you can look for the sample programs and start learning. Happy learning!!
 
 # About Assembly
 
