@@ -64,7 +64,7 @@ Ada distinguishes functions and procedures. In simpler terms, functions return s
 
 Functions and procedures are collectively called as sub-programs.
 
-### Syntax for procedure and functions
+### Syntax for procedure
 
 ```ada
 procedure proc-name
@@ -75,6 +75,7 @@ Y := X; −− can modify Y as it's an out parameter.
 Z := Z + 1; −− can read and write as it's an in out parameter.
 end proc-name;
 ```
+### Syntax for functions
 
 ```ada
 function function_name(declaration) return value is
