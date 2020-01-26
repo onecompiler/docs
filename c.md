@@ -1,7 +1,7 @@
 # C Language online compiler
 Write, Run & Share C Language code online using OneCompiler's C online compiler. It's one of the robust, feature-rich online compilers for C language, running the latest C version which is C18. Getting started with the OneCompiler's C editor is really simple and pretty fast. The editor shows sample boilerplate code when you choose language as 'C' and you can also choose hundreds of reference programs to get started.
 
-# Taking inputs (stdin)
+# Read inputs from stdin
 OneCompiler's C online editor supports stdin and users can give inputs to programs using the STDIN textbox under the I/O tab. Following is a sample C program which takes name as input and print your name with hello.
 
 ```c

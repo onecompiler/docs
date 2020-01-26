@@ -1,7 +1,9 @@
 # Ada online compiler
+
 Write, Run & Share Ada code online using OneCompiler's Ada online compiler. It's one of the robust, feature-rich online compilers for Ada language, running the latest Ada version 2012. Getting started with the OneCompiler's Ada editor is easy and fast. The editor shows sample boilerplate code when you choose language as Ada. OneCompiler also has reference programs, where you can look for the sample code and start learning. Happy learning!!
 
-# Taking inputs (stdin)
+# Read inputs from stdin
+
 OneCompiler's Ada online editor supports stdin and users can give inputs to programs using the STDIN textbox under the I/O tab. Following is a sample Ada program which takes name as input and prints hello message with your name.
 
 ```ada
