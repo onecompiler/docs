@@ -1,6 +1,6 @@
 # Fortran Online Compiler
 
-Write, Run & Share Fortran code online using OneCompiler's Fortran online compiler. It's one of the robust, feature-rich online compilers for Fortran language, running on the latest version 17. Getting started with the OneCompiler's Fortran compiler is simple and pretty fast. The editor shows sample boilerplate code when you choose language as `Fortran`. OneCompiler also has reference programs, where you can look for the sample programs and start learning. Happy learning!!
+Write, Run & Share Fortran code online using OneCompiler's Fortran online compiler. It's one of the robust, feature-rich online compilers for Fortran language, running on the latest version 7. Getting started with the OneCompiler's Fortran compiler is simple and pretty fast. The editor shows sample boilerplate code when you choose language as `Fortran`. OneCompiler also has reference programs, where you can look for the sample programs and start learning. Happy learning!!
 
 # Read inputs from stdin
 
