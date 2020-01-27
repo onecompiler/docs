@@ -88,7 +88,7 @@ elif conditional-expression then
 else
    // code
 ```
-### 3. For:
+### 2. For:
 
 For loop is used to iterate a set of statements based on a condition.
 
@@ -122,7 +122,7 @@ for x in listItems do
    printfn "%d" x
 ``` 
 
-### 4. While:
+### 3. While:
 
 While is also used to iterate a set of statements based on a condition. Usually while is preferred when number of ierations is not known in advance.
 
