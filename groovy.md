@@ -1,16 +1,13 @@
 # Groovy online compiler
 Write, Run & Share Groovy code online using OneCompiler's Groovy online compiler. It's one of the robust, feature-rich online compilers for Groovy language, running the latest Groovy version 2.6. Getting started with the OneCompiler's Groovy editor is easy and fast. The editor shows sample boilerplate code when you choose language as Groovy. OneCompiler also has reference programs, where you can look for the sample code and start learning. Happy learning!!
 
-
-# Taking inputs (stdin)
+# Read inputs from stdin
 OneCompiler's Groovy online editor supports stdin and users can give inputs to programs using the STDIN textbox under the I/O tab. Following is a sample Groovy program which takes name as input and prints hello message with your name.
-
 
 ```groovy
 def name = System.in.newReader().readLine()
 println "Hello " + name
 ```
-
 # About Groovy
 
 Groovy is an object-oriented programming language based on java. Apache Groovy is a dynamic and agile language which is similar to Python, Ruby, Smalltalk etc. 
