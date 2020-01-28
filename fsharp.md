@@ -1,19 +1,19 @@
-# F sharp Online Compiler
+# `F#`(F sharp) Online Compiler
 
-Write, Run & Share F# code online using OneCompiler's F# online compiler. It's one of the robust, feature-rich online compilers for F# language, running on the latest version 4.0. Getting started with the OneCompiler's F# compiler is simple and pretty fast. The editor shows sample boilerplate code when you choose language as `F#`. OneCompiler also has reference programs, where you can look for the sample programs and start learning. Happy learning!!
+Write, Run & Share `F#` code online using OneCompiler's F# online compiler. It's one of the robust, feature-rich online compilers for `F#` language, running on the latest version 4.0. Getting started with the OneCompiler's `F#` compiler is simple and pretty fast. The editor shows sample boilerplate code when you choose language as `F#`. OneCompiler also has reference programs, where you can look for the sample programs and start learning. Happy learning!!
 
 # Read inputs from stdin
 
-OneCompiler's F# online editor supports stdin and users can give inputs to programs using the STDIN textbox under the I/O tab. Following is a sample F# program which takes name as input and prints hello message with your name.
+OneCompiler's `F#` online editor supports stdin and users can give inputs to programs using the STDIN textbox under the I/O tab. Following is a sample `F#` program which takes name as input and prints hello message with your name.
 
 ```fsharp
 open System
 let name = Console.ReadLine()
 Console.Write("Hello 0.\n", name)         
 ```
-# About F#
+# About `F#`
 
-F#(F sharp) is a functional programming language which was developed by Microsoft in the year 2005. F# is .net implementation of OCaml. It can be used in variety of applications like graphic designing, Telecommunications, AI, CPU design, compiler programming, web applications, games etc.,
+`F#`(F sharp) is a functional programming language which was developed by Microsoft in the year 2005. `F#` is .net implementation of OCaml. It can be used in variety of applications like graphic designing, Telecommunications, AI, CPU design, compiler programming, web applications, games etc.,
 
 # Syntax help
 
@@ -133,7 +133,7 @@ while condition-expr do
 
 ## Function
 
-In F#, You can declare and use functions similar to Variables. In simpler words, you can understand them as user-defined variables.
+In `F#`, You can declare and use functions similar to Variables. In simpler words, you can understand them as user-defined variables.
 
 ### How to define a function
 
