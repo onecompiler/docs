@@ -76,7 +76,7 @@ if(conditional-expression) {
    // code
 }
 ```
-#### Nested If-Elif-Else
+#### Nested If-Else
 
 ```go
 if(conditional-expression) {
