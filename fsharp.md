@@ -11,7 +11,7 @@ open System
 let name = Console.ReadLine()
 Console.Write("Hello 0.\n", name)         
 ```
-# About `F#`
+# About **`F#`**
 
 `F#`(F sharp) is a functional programming language which was developed by Microsoft in the year 2005. `F#` is .net implementation of OCaml. It can be used in variety of applications like graphic designing, Telecommunications, AI, CPU design, compiler programming, web applications, games etc.,
 
