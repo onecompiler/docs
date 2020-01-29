@@ -8,6 +8,7 @@ OCaml is general purpose programming language with more importance to safety and
 
 ## key features
 
+* Strongly typed functional language
 * Easy to learn
 * Very powerful type system
 * Automatic memory management
