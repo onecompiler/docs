@@ -27,6 +27,13 @@ OCaml is general purpose programming language with more importance to safety and
 ### Note:
 OCaml allows users to define new data types.
 
+## Variables
+
+Variable is a name given to the storage area in order to manipulate them in our programs.
+
+```go 
+let varible-names = value
+```
 ## Loops
 
 ### 1. If:
