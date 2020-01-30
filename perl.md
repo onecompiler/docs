@@ -134,7 +134,6 @@ do {
 Sub-routines are similar to functions which contains set of statements. Usually sub-routines are written when multiple calls are required to same set of statements which increases re-usuability and modularity.
 
 ### How to define a sub-routine
-
 ```perl
 sub subroutine_name 
 {
