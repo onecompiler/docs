@@ -19,10 +19,10 @@ OCaml is general purpose programming language with more importance to safety and
 
 ## Data types
 
-|Classification|Data-types| 
+| Classification | Data-types | 
 |----|----|
-|basic data types| integers, floating point numbers, booleans, characters, strings.|
-|sophisticated data types| tuples, arrays, lists, sets, hash tables, queues, stacks, data streams.|
+| Basic data types| integers, floating point numbers, booleans, characters, strings.|
+| Sophisticated data types| tuples, arrays, lists, sets, hash tables, queues, stacks, data streams.|
 
 ### Note:
 OCaml allows users to define new data types.
@@ -31,7 +31,7 @@ OCaml allows users to define new data types.
 
 Variable is a name given to the storage area in order to manipulate them in our programs.
 
-```ocaml
+```c
 let varible-names = value
 ```
 ## Loops
@@ -40,7 +40,7 @@ let varible-names = value
 
 If is performed when you need to choose expression based on a boolean-condition.
 
-```ocaml
+```c
 if boolean-condition then (* code if condition is true *)
   
 if boolean-condition then (* code if condition is true*) else (* code if condition is false*)
@@ -50,7 +50,7 @@ if boolean-condition then (* code if condition is true*) else (* code if conditi
 
 While is used to iterate a set of statements based on a condition. Usually while is preferred when number of ierations is not known in advance.
 
-```ocaml
+```c
 while boolean-condition do
   (* code *)
 done
@@ -60,7 +60,7 @@ done
 
 For loop is used to iterate a set of statements for specific number of items.
 
-```Ocaml
+```c
 for var = start-value to end-value do
   (* code *)
 done
