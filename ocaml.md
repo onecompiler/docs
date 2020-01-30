@@ -31,7 +31,7 @@ OCaml allows users to define new data types.
 
 Variable is a name given to the storage area in order to manipulate them in our programs.
 
-```go 
+```ocaml
 let varible-names = value
 ```
 ## Loops
