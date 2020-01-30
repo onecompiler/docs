@@ -9,7 +9,11 @@ OneCompiler's PHP online editor supports stdin and users can give inputs to prog
 ```php
 <?php
 	fscanf(STDIN, "%s\n", $name);           
+<<<<<<< HEAD
     echo "Hello ".$name.".\n";
+=======
+	echo "Hello ".$name.".\n";
+>>>>>>> 33a337bac5b4fa6827b129d0f57290a03dcaa6ab
 ?>
 ```
 # About PHP
