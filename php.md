@@ -9,7 +9,7 @@ OneCompiler's PHP online editor supports stdin and users can give inputs to prog
 ```php
 <?php
 	fscanf(STDIN, "%s\n", $name);           
-echo "Hello ".$name.".\n";
+    echo "Hello ".$name.".\n";
 ?>
 ```
 # About PHP
@@ -139,6 +139,7 @@ do {
 Function is a sub-routine which contains set of statements. Usually functions are written when multiple calls are required to same set of statements which increases re-usuability and modularity.
 
 ## How to define a Function
+
 ```php
 func function_name(parameters) {  
   //code
