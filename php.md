@@ -61,17 +61,17 @@ if(conditional-expression){
 
 #### Nested-If-else
 ```php
-if(condition-expression1){  
-//code if above condition is true  
+if(condition-expression1) {  
+    //code if above condition is true  
 } elseif(condition-expression2){  
-//code if above condition is true  
+    //code if above condition is true  
 }  
-elseif(condition-expression3){  
-//code if above condition is true  
+elseif(condition-expression3) {  
+    //code if above condition is true  
 }  
 ...  
-else{  
-//code if all the conditions are false  
+else {  
+    //code if all the conditions are false  
 }  
 ```
 
@@ -138,7 +138,7 @@ do {
 
 Function is a sub-routine which contains set of statements. Usually functions are written when multiple calls are required to same set of statements which increases re-usuability and modularity.
 
-## How to define a Function
+### How to define a Function
 
 ```php
 func function_name(parameters) {  
@@ -146,7 +146,7 @@ func function_name(parameters) {
 }
 ```
 
-## How to call a Function
+### How to call a Function
 
 ```php
 function_name (parameters)
