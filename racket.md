@@ -38,9 +38,9 @@ let  and define are used to declare  variables
 ### Syntax
 
 ```racket
-(let ([id val-expr] ...) body ...+)
+(let ([id value-expression] ...) body ...+)
 
-(let proc-id ([id init-expr] ...) body ...+)
+(let proc-id ([id init-expression] ...) body ...+)
 ```
 
 ```racket
@@ -61,12 +61,12 @@ If, If-else are used when you want to perform a certain set of operations based 
 
 #### If
 ```racket
-(if test-expr then-expr)
+(if cond-expr then-expr)
 ```
 
 #### If-else
 ```racket
-(if test-expr then-expr else-expr)
+(if cond-expr then-expr else-expr)
 ```
 
 ### 2. For
@@ -80,13 +80,13 @@ For loop is used to iterate a set of statements based on a condition.
 ```
 where 
 
-for-clause	=	[id seq-expr] |	[(id ...) seq-expr]	| #:when guard-expr | #:unless guard-expr | 	break-clause
+for-clause = [id seq-expr] | [(id ...) seq-expr] | #:when guard-expr | #:unless guard-expr | break-clause
  	 	 	 	 
 break-clause = #:break guard-expr | #:final guard-expr
  	 	 	 	 
-body-or-break = body 	|	break-clause
+body-or-break = body | break-clause
 
-seq-expr : 	sequence?
+seq-expr : sequence?
 ```
 
 
@@ -95,6 +95,6 @@ seq-expr : 	sequence?
 A lambda expression is used to create a function. 
 
 ```racket
-(lambda (arg-id ...)
+(lambda (argument-id ...)
   body ...+)
 ```
