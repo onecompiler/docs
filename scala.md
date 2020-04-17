@@ -7,7 +7,7 @@ Write, Run & Share Scala code online using OneCompiler's Scala online compiler. 
 
 OneCompiler's Scala online editor supports stdin and users can give inputs to programs using the STDIN textbox under the I/O tab. Following is a sample Scala program which takes name as input and prints hello message with your name.
 
-```scala
+```java
 object Hello {
 	def main(args: Array[String]): Unit = {
 	  val name = scala.io.StdIn.readLine()        // Read input from STDIN
@@ -25,7 +25,7 @@ Scala is both object-oriented and functional programming language by Martin Oder
 
 Variable is a name given to the storage area in order to identify them in our programs.
 
-```scala
+```java
 var or val Variable-name [: Data-Type] = [Initial Value];
 ```
 
@@ -37,14 +37,14 @@ If, If-else, Nested-Ifs are used when you want to perform a certain set of opera
 
 #### If
 
-```scala
+```java
 if(conditional-expression){    
 //code    
 } 
 ```
 
 #### If-else
-```scala
+```java
 if(conditional-expression) {  
 //code if condition is true  
 } else {  
@@ -53,7 +53,7 @@ if(conditional-expression) {
 ```
 
 #### Nested-If-else
-```scala
+```java
 if(condition-expression1) {  
 //code if above condition is true  
 } else if (condition-expression2) {  
@@ -72,7 +72,7 @@ else {
 
 For loop is used to iterate a set of statements based on a criteria.
 
-```scala
+```java
 for(index <- range){  
   // code  
 } 
@@ -83,7 +83,7 @@ for(index <- range){
 
 While is also used to iterate a set of statements based on a condition. Usually while is preferred when number of ierations is not known in advance.
 
-```scala
+```java
 while(condition) {  
  // code 
 }  
@@ -92,7 +92,7 @@ while(condition) {
 
 Do-while is also used to iterate a set of statements based on a condition. It is mostly used when you need to execute the statements atleast once.
 
-```scala
+```java
 do {
   // code 
 } while (condition) 
@@ -102,7 +102,7 @@ do {
 
 Function is a sub-routine which contains set of statements. Usually functions are written when multiple calls are required to same set of statements which increases re-usuability and modularity.
 
-```scala
+```java
 def functionname(parameters : parameters-type) : returntype = {   //code
 }
 ```

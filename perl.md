@@ -32,7 +32,7 @@ There is no need to specify the type of the data in Perl as it is loosely typed 
 |----|----|----|
 | Scalar | Scalar is either a number or a string or an address of a variable(reference)| $var|
 | Arrays|Array is an ordered list of scalars, you can access arrays with indexes which starts from 0|@arr = (1,2,3)|
-|Hash|Hash is an  unordered set of key/value pairs|%ul = (1,'foo', 2, 'bar)| 
+|Hash|Hash is an unordered set of key/value pairs|%ul = (1,'foo', 2, 'bar)| 
 
 ## Variables
 

@@ -121,7 +121,7 @@ data-type[] array-name;
 
 ## Methods
 
-Method is a set of statements which gets executed only when they are called. Call the methoname in the main function to execute the method.
+Method is a set of statements which gets executed only when they are called. Call the method name in the main function to execute the method.
 
 ### Syntax
 
