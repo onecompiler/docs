@@ -25,7 +25,7 @@ R is very popular for data analytics which was created by Ross Ihaka and Robert 
 |Complex| To represent complex values | x = 10+2i|
 |Logical| To represent boolean values, true or false | x = TRUE|
 |Character| To represent string values | x <- "One compiler"|
-
+| raw | Holds raw bytes||
 
 ## Variables
 
@@ -34,7 +34,7 @@ Variables can be assigned using any of the leftward, rightward or equal to opera
 ```c
 var-name = value
 var-name <- value
-var-name -> value
+value -> var-name
 ```
 
 ## Loops
@@ -46,34 +46,34 @@ If, If-else, Nested-Ifs are used when you want to perform a certain set of opera
 
 #### If
 
-```c
+```py
 if(conditional-expression){    
-    //code    
+    #code    
 } 
 ```
 
 #### If-else
-```c
+```py
 if(conditional-expression){  
-    //code if condition is true  
+    #code if condition is true  
 } else {  
-    //code if condition is false  
+    #code if condition is false  
 } 
 ```
 
 #### Nested-If-else
-```c
+```py
 if(condition-expression1) {  
-    //code if above condition is true  
+    #code if above condition is true  
 } elseif(condition-expression2){  
-    //code if above condition is true  
+    #code if above condition is true  
 }  
 elseif(condition-expression3) {  
-    //code if above condition is true  
+    #code if above condition is true  
 }  
 ...  
 else {  
-    //code if all the conditions are false  
+    #code if all the conditions are false  
 }  
 ```
 
@@ -81,7 +81,7 @@ else {
 
 Switch is used to execute one set of statement from multiple conditions.
 
-```c
+```r
 switch(expression, case-1, case-2, case-3....)   
 ```
 
@@ -91,16 +91,16 @@ For loop is used to iterate a set of statements based on a condition.
 
 ```r
 for (value in vector) {  
-  // code  
+  # code  
 } 
 ```
 ### 4. While:
 
 While is also used to iterate a set of statements based on a condition. Usually while is preferred when number of ierations is not known in advance.
 
-```c
+```r
 while(condition) {  
- // code 
+ # code 
 }  
 ```
 ### 5. Repeat:
@@ -109,7 +109,7 @@ Repeat is used tyo iterate a set of statements with out any condition. You can w
 
 ```r
 repeat {   
-   //code   
+   #code   
    if(condition-expression) {  
       break  
    }  
@@ -124,13 +124,13 @@ Function is a sub-routine which contains set of statements. Usually functions ar
 
 ```r
 func-name <- function(parameter_1, parameter_2, ...) {  
-   //code for function body   
+   #code for function body   
 }  
 ```
 
 ### How to call a Function
 
-```c
+```r
 function_name (parameters)
 ```
 
@@ -145,7 +145,7 @@ x <- 1:10
 ```
 
 ```r
-//using seq() function
+#using seq() function
  x <- seq(1, 10, by=2)
 ```
 the above statement prints the output as `[1] 1 3 5 7 9`.
