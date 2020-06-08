@@ -1,5 +1,5 @@
 # Jshell online compiler
-Write, Run & Share Jshell code online using OneCompiler's Jshell online compiler. It's one of the robust, feature-rich online compilers for Jshell language, running the latest Jshell version 9. Getting started with the OneCompiler's Jshell editor is easy and fast. The editor shows sample boilerplate code when you choose language as Jshell. OneCompiler also has reference programs, where you can look for the sample code and start learning. Happy learning!!
+Write, Run & Share Jshell code online using OneCompiler's Jshell online compiler for free. It's one of the robust, feature-rich online compilers for Jshell language, running the latest Jshell version 9. Getting started with the OneCompiler's Jshell editor is easy and fast. The editor shows sample boilerplate code when you choose language as Jshell. OneCompiler also has reference programs, where you can look for the sample code and start learning. Happy learning!!
 
 # About Jshell
 

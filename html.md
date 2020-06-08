@@ -1,6 +1,6 @@
 # HTML Online Code editor
 
-Write, Run & Share HTML code online using OneCompiler's HTML online Code editor. It's one of the robust, feature-rich online Code editor for HTML language, running on the latest version HTML5. Getting started with the OneCompiler's HTML compiler is simple and pretty fast. The editor shows sample boilerplate code when you choose language as `HTML`. You can also specify the stylesheet information in `styles.css` tab and scripts information in `scripts.js` tab. OneCompiler also has reference programs, where you can look for the sample programs and start learning. Happy learning!!
+Write, Run & Share HTML code online using OneCompiler's HTML online Code editor for free. It's one of the robust, feature-rich online Code editor for HTML language, running on the latest version HTML5. Getting started with the OneCompiler's HTML compiler is simple and pretty fast. The editor shows sample boilerplate code when you choose language as `HTML`. You can also specify the stylesheet information in `styles.css` tab and scripts information in `scripts.js` tab. OneCompiler also has reference programs, where you can look for the sample programs and start learning. Happy learning!!
 
 # About HTML
 

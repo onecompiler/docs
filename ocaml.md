@@ -1,6 +1,6 @@
 # OCaml Online Compiler
 
-Write, Run & Share OCaml code online using OneCompiler's OCaml online compiler. It's one of the robust, feature-rich online compilers for OCaml language, running on the latest version 4. Getting started with the OneCompiler's OCaml compiler is simple and pretty fast. The editor shows sample boilerplate code when you choose language as `OCaml`. OneCompiler also has reference programs, where you can look for the sampleprograms and start learning. Happy learning!!
+Write, Run & Share OCaml code online using OneCompiler's OCaml online compiler for free. It's one of the robust, feature-rich online compilers for OCaml language, running on the latest version 4. Getting started with the OneCompiler's OCaml compiler is simple and pretty fast. The editor shows sample boilerplate code when you choose language as `OCaml`. OneCompiler also has reference programs, where you can look for the sampleprograms and start learning. Happy learning!!
 
 # About OCaml
 

@@ -1,6 +1,6 @@
 # C++ Online Compiler
 
-Write, Run & Share C++ code online using OneCompiler's C++ online compiler. It's one of the robust, feature-rich online compilers for C++ language, running on the latest version 17. Getting started with the OneCompiler's C++ compiler is simple and pretty fast. The editor shows sample boilerplate code  when you choose language as `C++`. OneCompiler also has reference programs, where you can look for the sample programs and start learning. Happy learning!!
+Write, Run & Share C++ code online using OneCompiler's C++ online compiler for free. It's one of the robust, feature-rich online compilers for C++ language, running on the latest version 17. Getting started with the OneCompiler's C++ compiler is simple and pretty fast. The editor shows sample boilerplate code  when you choose language as `C++`. OneCompiler also has reference programs, where you can look for the sample programs and start learning. Happy learning!!
 
 # Read inputs from stdin
 OneCompiler's C++ online compiler supports stdin and users can give inputs to programs using the STDIN textbox under the I/O tab. Following is a sample program which takes name as input and print your name with hello.
