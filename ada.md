@@ -41,7 +41,7 @@ begin
 ```
 ### 2. while loop
 
-While is also used to iterate a set of statements based on a condition. Usually while is preferred when number of ierations is not known in advance.
+While is also used to iterate a set of statements based on a condition. Usually while is preferred when number of iterations are not known in advance.
 
 ```ada
    Count := 1;    --initialization
@@ -51,7 +51,7 @@ While is also used to iterate a set of statements based on a condition. Usually 
 ```
 
 ### 3. for loop
-For loop is used to iterate a set of statements based on a condition. Usually for loop is preferred when number of ierations is known in advance.
+For loop is used to iterate a set of statements based on a condition. Usually for loop is preferred when number of iterations are known in advance.
 
 ```ada
 for Index in 1..n loop          

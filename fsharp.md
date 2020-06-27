@@ -124,7 +124,7 @@ for x in listItems do
 
 ### 3. While:
 
-While is also used to iterate a set of statements based on a condition. Usually while is preferred when number of ierations is not known in advance.
+While is also used to iterate a set of statements based on a condition. Usually while is preferred when number of iterations is not known in advance.
 
 ```fsharp
 while condition-expr do   

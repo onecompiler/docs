@@ -34,8 +34,7 @@ Haskell is purely a functional programming language which was introduced in 1990
 |Characters| Haskell is intelligent to identify characters and strings without specifying data type|
 |Tuple|To declare multiple values in a single data type. Tuples are represented in single paranthesis. For example (10,20,'apple')|
 |Boolean|To represent boolean values, true or false|
-|List|To declare same type of values in a single data type. Lists are represented in square braces.For example [1,2,3] or ['a','b','c','d'|
-
+|List|To declare same type of values in a single data type. Lists are represented in square braces.For example `[1,2,3]` or `['a','b','c','d']|
 
 ## Control statements
 
