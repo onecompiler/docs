@@ -107,7 +107,7 @@ end
 
 Function is a sub-routine which contains set of statements. Usually functions are written when multiple calls are required to same set of statements which increases re-usuability and modularity.
 
-Two types of functions are present in C
+Two types of functions are present in Elixir
 
 1. Anonymous Functions:
 
