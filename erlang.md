@@ -28,11 +28,11 @@ variable-name = value
 
 | Data type| Usage| Description|
 |----|----|----|
-| Numeric| start() -> io:fwrite("~w",[10+10]). | Erlang supports both integer and float values.|
+| Numeric| start() -> `io:fwrite("~w",[10+10])` | Erlang supports both integer and float values.|
 | Atom| start() -> io:fwrite(true) | Atoms should start with lower case leters and can contain  lowercase and uppercase characters, numbers, `_` and `@`. You can also put atom in single quotes|
 | Boolean | start() ->  io:fwrite(10 =< 8)| Output will be either true or false based on the values given|
 | Bit String|  str = <<10,20>>| Strings are enclosed in << >> and are used to store untyped memory|
-| Lists| [1,2,3]| Lists is a compound data type with Variable number of elements.|
+| Lists|`[1,2,3]`| Lists is a compound data type with Variable number of elements.|
 | Tuples| t = {apple, 100, {orange,50}} | Tuple is a compound data type with fixed number of elements.|
 |Map| map = #{name=>onecompiler,message=>Learning}| Map is a compound data type with a variable number of key-value pairs|
 
