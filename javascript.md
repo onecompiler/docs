@@ -20,7 +20,7 @@ Javascript(JS) is a object-oriented programming language which adhere to ECMA Sc
 
 |Keyword|Description|Scope|
 |----|----|----|
-|var| Var is used to declare variables(old way of declaring variables)| Function or global scope| 
+|var| Var is used to declare variables(old way of declaring variables)| Function or global scope|
 |let| let is also used to declare variables(new way)|Global or block Scope|
 |const|const is used to declare const values. Once the value is assigned it can not be modified|Global or block Scope|
 
