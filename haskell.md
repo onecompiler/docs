@@ -5,7 +5,7 @@ Write, Run & Share Haskell code online using OneCompiler's Haskell online compil
 OneCompiler's Haskell online editor supports stdin and users can give inputs to programs using the STDIN textbox under the I/O tab. Following is a sample Haskell program which takes name as input and prints hello message with your name.
 
 
-```Haskell
+```c
 main = do  
     name <- getLine  
     putStrLn ("Hello " ++ name ++ ", Happy learning!") 
@@ -43,7 +43,7 @@ When ever you want to perform a set of operations based on a condition or set of
 
 ### Example:
 
-```haskell
+```c
 main = do   
    let age = 21 
    if age > 18 
@@ -58,7 +58,7 @@ Function is a sub-routine which contains set of statements. Usually functions ar
 
 
 ### Example
-```haskell
+```c
 multiply :: Integer -> Integer -> Integer   --declaration of a function 
 multiply x1 x2 =  x1 * x2                       --definition of a function
 
