@@ -24,6 +24,20 @@ Javascript(JS) is a object-oriented programming language which adhere to ECMA Sc
 |let| let is also used to declare variables(new way)|Global or block Scope|
 |const|const is used to declare const values. Once the value is assigned it can not be modified|Global or block Scope|
 
+## Backtick Strings
+
+### Interpolation
+```
+let greetings = `Hello ${name}`
+```
+### Multi line Strings
+```
+const msg = `
+hello
+world!
+`
+```
+
 ## Arrays
 An array is a collection of items or values. 
 
@@ -65,6 +79,51 @@ const squaresOfEvenNumbers = numbers.filter(ele => ele % 2 == 0)
                                     .map(ele => ele ** 2);
 console.log(squaresOfEvenNumbers);
 ```
+
+## De-structuring
+
+### Arrays
+```javascript
+let [firstName, lastName] = ['Foo', 'Bar']
+```
+### Objects
+```javascript
+let {firstName, lastName} = {
+  firstName: 'Foo',
+  lastName: 'Bar'
+}
+```
+### rest(...) operator
+```javascript
+ const {
+    title,
+    firstName,
+    lastName,
+    ...rest
+  } = record;
+```
+### Spread(...) operator
+```javascript
+//Object spread
+const post = {
+  ...options,
+  type: "new"
+}
+//array spread
+const users = [
+  ...adminUsers,
+  ...normalUsers
+]
+```
+## Functions 
+```javascript
+function greetings({ name = 'Foo' } = {}) { //Defaulting name to Foo
+  console.log(`Hello ${name}!`);
+}
+ 
+greet() // Hello Foo
+greet({ name: 'Bar' }) // Hi Bar
+```
 ## Loops
 ### 1. If:
 
@@ -90,7 +149,6 @@ if(condition){
 }
 ```
 
-
 ### 3. Switch:
 
 Switch is used to replace nested If-Else statements.
@@ -110,7 +168,6 @@ switch(condition){
         [break;]
 }
 ```
-
 
 ### 4. For
 
