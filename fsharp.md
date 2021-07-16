@@ -20,29 +20,29 @@ Console.Write("Hello 0.\n", name)
 ## Data Types
 
 ### Integer Data types
-| Data type | Description | Size|Range|
-|-----|-----|-----|----|
+|Data type|Description|Size|Range|
+|-----|----|----|----|
 |sbyte|8-bit signed integer|1 byte|-128 to 127|
 |byte|8-bit unsigned integer|1 byte|0 to 255|
 |int16|16-bit signed integer|2 bytes|-32768 to 32767|
 |unit16|16-bit unsigned integer|2 bytes|0 to 65,535|
 |int/int32|32-bit signed integer|4 bytes|-2,147,483,648 to 2,147,483,647|
 |uint32|32-bit unsigned integer|4 bytes|0 to 4,294,967,295|
-|int64|64-bit signed integer|8 bytes|	-9,223,372,036,854,775,808 to 9,223,372,036,854,775,807|
+|int64|64-bit signed integer|8 bytes|-9,223,372,036,854,775,808 to 9,223,372,036,854,775,807|
 |uint64|64-bit unsigned integer|8 bytes|0 to 18,446,744,073,709,551,615|
 |bigint|arbitrary precision integer|At least 4 bytes|Integers| 
 ### Float Data types
-| Data type | Description | Size|Range|
+|Data type|Description|Size|Range|
 |-----|-----|-----|----|
 |float32|32-bit signed floating point number|4 bytes|±1.5e-45 to ±3.4e38|
-|float|64-bit signed floating point number|8 bytes|	±5.0e-324 to ±1.7e308|
+|float|64-bit signed floating point number|8 bytes|±5.0e-324 to ±1.7e308|
 |decimal|128-bit signed floating point number|16 bytes|±1.0e-28 to ±7.9e28|
 
 ### Text and Boolean Data types
-| Data type | Description | Size|Range|
+|Data type |Description|Size|Range|
 |-----|-----|-----|----|
 |char|single character|2 bytes|U+0000 to U+ffff|
-|string|Text|20 + (2 * length of the string) bytes| 0 to up to 2 billion characters|
+|string|Text|20 + (2 * length of the string) bytes|0 to up to 2 billion characters|
 |bool|Stores either true or false|1 byte|True or false|
 
 ## Variables
