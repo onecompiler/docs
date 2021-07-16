@@ -41,10 +41,10 @@ Ruby is a general purpose object oriented programming language developed by Yuki
 
 In Ruby, there is no need to explicitly declare variables to reserve memory space. When you assign a value to a variable, declaration happens automatically and a prefix is needed to indicate the following variable types.
 
-|Variable type| Description|
+|Variable type|Description|
 |----|----|
-|Local variables| Scope is limited to the block of the variable initialization. Variable name must start with either `_` or lowercase letter. | 
-|Class variables| Class variables belongs to whole class and can be accessible anywhere inside the class. Variable name must start with `@@`. They must be initialized before use.|
+|Local variables|Scope is limited to the block of the variable initialization. Variable name must start with either `_` or lowercase letter. | 
+|Class variables|Class variables belongs to whole class and can be accessible anywhere inside the class. Variable name must start with `@@`. They must be initialized before use.|
 |Instance variables|Instance variables belongs to a instance of the class. They can be accessed from any instance of the class within a method. Variable name must start `@`|
 |Global variables|Scope is global and hence they can be accessible anywhere in the program. Variable name must start with `$`|
 

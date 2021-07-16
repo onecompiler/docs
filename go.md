@@ -41,10 +41,10 @@ Some of the products developed using Go are Kubernetes, Docker, Dropbox, Infoblo
 |unit16|16-bit unsigned integer|2 bytes|0 to 65,535|
 |int32|32-bit signed integer|4 bytes|-2,147,483,648 to 2,147,483,647|
 |uint32|32-bit unsigned integer|4 bytes|0 to 4,294,967,295|
-|int64|64-bit signed integer|8 bytes|	-9,223,372,036,854,775,808 to 9,223,372,036,854,775,807|
+|int64|64-bit signed integer|8 bytes|-9,223,372,036,854,775,808 to 9,223,372,036,854,775,807|
 |uint64|64-bit unsigned integer|8 bytes|0 to 18,446,744,073,709,551,615|
 |float32|32-bit signed floating point number|4 bytes|±1.5e-45 to ±3.4e38|
-|float|64-bit signed floating point number|8 bytes|	±5.0e-324 to ±1.7e308|
+|float|64-bit signed floating point number|8 bytes|±5.0e-324 to ±1.7e308|
 |string|sequence of immutable text|||
 |bool|Stores either true or false|1 byte|True or false|
 

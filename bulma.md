@@ -14,9 +14,9 @@ Bulma is a free open-source CSS framework for front-end web development. It help
 |.is-primary|.is-small|.is-outlined|
 |.is-link|.is-medium|.is-loading|
 |.is-info|.is-large|
-|.is-success|||
-|.is-warning|||
-|.is-danger|||
+|.is-success| | |
+|.is-warning| | |
+|.is-danger| | |
 
 ## Typography helpers
 

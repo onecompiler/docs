@@ -37,7 +37,7 @@ Materialize CSS is a UI component library which is created with CSS, JavaScript 
     @extend .blue-text, .text-lighten-4;
   }
 ```
-|Color Names|||||
+|Color Names| | | | |
 |---|---|---|---|---|
 |.red|.lighten-5|.pink|.lighten-4|.purple|
 |.lighten-3|.deep-­purple|.lighten-2|.indigo|.lighten-1|
@@ -47,7 +47,7 @@ Materialize CSS is a UI component library which is created with CSS, JavaScript 
 |.accent-4|.amber|.orange|.deep-­orange|.brown|
 |.grey|.blue-grey|.black|.white|.trans­parent|
 
-|classes to vary the color applied||||
+|classes to vary the color applied| | | |
 |---|---|---|---|
 |lighten-1| lighten-2| lighten-3| lighten-4| lighten-5|
 | darken-1| darken-2| darken-3|| darken-4||

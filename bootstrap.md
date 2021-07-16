@@ -9,36 +9,36 @@ Bootstrap is a free CSS framework for front-end web development. It contains CSS
 
 ## Colors
 
-|Text colors||||
+|Text colors| | | |
 |---|---|---|---|
-|.text-muted| .text-primary| .text-success| .text-info| 
-|.text-warning| .text-danger| .text-secondary| .text-white| 
-|.text-dark| .text-body | .text-light||
+|.text-muted|.text-primary|.text-success|.text-info| 
+|.text-warning|.text-danger|.text-secondary|.text-white| 
+|.text-dark|.text-body|.text-light||
 
-|Background colors||||
+|Background colors| | | |
 |---|---|---|---|
-|.bg-primary| .bg-success| .bg-info| .bg-warning| 
-|.bg-danger| .bg-secondary| .bg-dark | .bg-light|
+|.bg-primary|.bg-success|.bg-info|.bg-warning| 
+|.bg-danger|.bg-secondary|.bg-dark|.bg-light|
 
 ## Tables
 
 
-|Class|	Description|
+|Class|Description|
 |---|---|
 |.table| basic|
-|.table-striped| adds zebra-stripes to a table|
+|.table-striped|adds zebra-stripes to a table|
 |.table-bordered|adds borders on all sides of the table and cells|
-|.table-hover |  adds a hover effect with grey background color on table rows|
-|.table-primary|	adds Blue color to table row indicating an important action|
-|.table-dark| adds a black background to the table|
-|.table-success| adds	Green color to table row indicating successful or positive action|
-|.table-danger | adds	Red color to table row indicating a negative action|
-|.table-info|	adds Light blue  to table row indicating a neutral informative change or action|
-|.table-warning	| Orange  to table row indicating attention required|
-|.table-active	| apply the hover color Grey to the table row or table cell|
-|.table-secondary|	Grey: Indicates a slightly less important action|
-|.table-light	|Light grey table or table row background|
-|.table-dark	| Dark grey table or table row background|
+|.table-hover |adds a hover effect with grey background color on table rows|
+|.table-primary|adds Blue color to table row indicating an important action|
+|.table-dark|adds a black background to the table|
+|.table-success|adds	Green color to table row indicating successful or positive action|
+|.table-danger|adds	Red color to table row indicating a negative action|
+|.table-info|adds Light blue  to table row indicating a neutral informative change or action|
+|.table-warning|Orange  to table row indicating attention required|
+|.table-active|apply the hover color Grey to the table row or table cell|
+|.table-secondary|Grey: Indicates a slightly less important action|
+|.table-light|Light grey table or table row background|
+|.table-dark|Dark grey table or table row background|
 |.thead-dark|adds a black background to table headers|
 |thead-light|adds a grey background to table header|
 
@@ -49,14 +49,14 @@ Bootstrap is a free CSS framework for front-end web development. It contains CSS
 <img src="sample.jpg" class="rounded" alt="Sample text" />
 ```
 
-|Class|	Description|
+|Class|Description|
 |---|---|
 |.rounded|adds rounded corners to an image|
 |.rounded-circle|shapes the image to a circle|
 |.img-thumbnail|shapes the image to a thumbnail|
-|.float-right/.float-left| floats image to right/left|
-|.mx-auto  .d-block| Center an image by adding the utility classes .mx-auto (margin:auto) and .d-block (display:block)|
-|.img-fluid| Responsive images automatically adjust to fit the screen's size|
+|.float-right/.float-left|floats image to right/left|
+|.mx-auto.d-block|Center an image by adding the utility classes .mx-auto (margin:auto) and .d-block (display:block)|
+|.img-fluid|Responsive images automatically adjust to fit the screen's size|
 
 ## Buttons
 
@@ -114,11 +114,11 @@ The below button classes can be used on `<a>`, `<button>` or `<input>`.
 
 |Class|Description|
 |----|----|
-|.col-| extra small devices with screen width less than 576px|
-|.col-sm-| small devices with screen width equal to or greater than 576px|
-|.col-md-| medium devices with screen width equal to or greater than 768px|
-|.col-lg- |large devices with screen width equal to or greater than 992px|
-|.col-xl- |xlarge devices with screen width equal to or greater than 1200px|
+|.col-|extra small devices with screen width less than 576px|
+|.col-sm-|small devices with screen width equal to or greater than 576px|
+|.col-md-|medium devices with screen width equal to or greater than 768px|
+|.col-lg-|large devices with screen width equal to or greater than 992px|
+|.col-xl-|xlarge devices with screen width equal to or greater than 1200px|
 
 ```html
 <div class="row">

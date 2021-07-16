@@ -22,20 +22,20 @@ Foundation is a responsive framework for front-end web development. It helps dev
 |----|----|----|----|
 |class="show-for-small-only"|class="hide-for-small-only"|class="show-for-landscape"|class="show-for-touch"|
 |class="show-for-medium-up"|class="hide-for-medium-up"|class="show-for-portrait"|class="hide-for-touch"|
-|class="show-for-medium-only"|class="hide-for-medium-only"|||
-|class="show-for-large-down"|class="hide-for-large-down"|||
-|class="show-for-large"|class="hide-for-large"|||
-|class="show-for-large-up"|class="hide-for-large-up"|||
-|class="show-for-xlarge"|class="hide-for-xlarge"|||
-|class="show-for-xxlarge"|class="hide-for-xxlarge"|||
+|class="show-for-medium-only"|class="hide-for-medium-only"| | |
+|class="show-for-large-down"|class="hide-for-large-down"| | |
+|class="show-for-large"|class="hide-for-large"| | |
+|class="show-for-large-up"|class="hide-for-large-up"| | |
+|class="show-for-xlarge"|class="hide-for-xlarge"| | |
+|class="show-for-xxlarge"|class="hide-for-xxlarge"| | |
 
 ## Buttons
 
 |Button type| Syntax|
 |----|----|
 |Tiny button|class="button tiny"|
-|Small button| class="button small"|
-|Default button| class="button"|
+|Small button|class="button small"|
+|Default button|class="button"|
 |Large button|class="button large"|
 |Alert button|class="button alert"|
 |Disabled button|class="button disabled"|
