@@ -49,13 +49,13 @@ variable-name    define-directive    initial-value
 ### 2.  To allocate storage space to un-initialized data
 
 
-|Define Directive| Description| 
+|Define Directive|Description| 
 |-----|----|
-|RESB |	Reserve a Byte|
-|RESW | Reserve a Word|
-|RESD |	Reserve a Doubleword|
-|RESQ |	Reserve a Quadword|
-|REST |	Reserve a Ten Bytes|
+|RESB|Reserve a Byte|
+|RESW|Reserve a Word|
+|RESD|Reserve a Doubleword|
+|RESQ|Reserve a Quadword|
+|REST|Reserve a Ten Bytes|
 
 
 ## Constants

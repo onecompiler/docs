@@ -22,13 +22,13 @@ Fortran language was initially developed for scientific calculations by IBM in 1
 
 ## Data Types
 
-| Data type | Description | Usage|
+|Data type|Description|Usage|
 |-----|-----|-----|
-|Integer | To store integer variables|integer :: x|
-|Real | To store float values | real :: x|
-|Complex | To store complex numbers| complex :: x,y|
-|Logical | To store boolean values True or false| logical :: x=.True. , logical :: x = .FALSE.| 
-|Character| To store characters and strings | character :: x|
+|Integer|To store integer variables|integer :: x|
+|Real|To store float values|real :: x|
+|Complex|To store complex numbers|complex :: x,y|
+|Logical|To store boolean values True or false|logical :: x=.True. , logical :: x = .FALSE.| 
+|Character|To store characters and strings|character :: x|
 
 ## Variables
 
