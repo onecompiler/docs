@@ -2,15 +2,6 @@
 
 Write, Run & Share NodeJS code online using OneCompiler's NodeJS online compiler for free. It's one of the robust, feature-rich online compilers for NodeJS language,running on the latest LTS version NodeJS 12.14.0. Getting started with the OneCompiler's NodeJS editor is easy and fast. The editor shows sample boilerplate code when you choose language as NodeJS. OneCompiler also has reference programs, where you can look for the sample code and start learning. You can provide the dependencies in `package.json`. 
 
-The following libraries are supported by OneCompiler's NodeJS compiler.
-* lodash
-* moment
-* underscore
-* uuid
-* ejs
-* md5
-* url
-
 # About NodeJS
 
 Node.js is a free and open-source server environment. Node.js is very popular in recent times and a large number of companies like Microsoft, Paypal, Uber, Yahoo, General Electric and many others are using Node.js.
@@ -73,3 +64,14 @@ app.delete('/:id', function (req, res) {
   res.send('DELETE request for id:'. req.params.id)
 })
 ```
+
+## Libraries supported
+Following are the libraries supported by OneCompiler's NodeJS compiler.
+
+* lodash
+* moment
+* underscore
+* uuid
+* ejs
+* md5
+* url
