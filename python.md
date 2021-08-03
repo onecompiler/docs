@@ -2,18 +2,6 @@
 
 Write, Run & Share Python code online using OneCompiler's Python online compiler for free. It's one of the robust, feature-rich online compilers for python language, supporting both the versions which are Python 3 and Python 2.7. Getting started with the OneCompiler's Python editor is easy and fast. The editor shows sample boilerplate code when you choose language as Python or Python2. OneCompiler also has reference programs, where you can look for the sample code and start learning. 
 
-The following libraries are supported by OneCompiler's Python compiler:
-### 1. NumPy
-NumPy python library helps users to work on arrays with ease.
-### 2. SciPy
-SciPy is a scientific computation library which depends on NumPy for convenient and fast N-dimensional array manipulation.
-### 3. SKLearn/Scikit-learn
-Scikit-learn or Scikit-learn is the most useful library for machine learning in Python.
-### 4. Pandas 
-Pandas is the most efficient Python library for data manipulation and analysis
-### 5. Matplotlib
-Matplotlib is a cross-platform, data visualization and graphical plotting library for Python programming and it's numerical mathematics extension NumPy.
-
 # Taking inputs (stdin)
 OneCompiler's python online editor supports stdin and users can give inputs to programs using the STDIN textbox under the I/O tab. Following is a sample python program which takes name as input and print your name with hello.
 
@@ -118,3 +106,14 @@ mydict = {
 }
 print(mydict)
 ```
+
+## Supported Libraries 
+Following are the libraries supported by OneCompiler's Python compiler
+
+| Name | Description |
+|--------|--------|
+|NumPy|NumPy python library helps users to work on arrays with ease|
+|SciPy|SciPy is a scientific computation library which depends on NumPy for convenient and fast N-dimensional array manipulation|
+|SKLearn/Scikit-learn|Scikit-learn or Scikit-learn is the most useful library for machine learning in Python|
+|Pandas|Pandas is the most efficient Python library for data manipulation and analysis|
+|Matplotlib|Matplotlib is a cross-platform, data visualization and graphical plotting library for Python programming and it's numerical mathematics extension NumPy|
