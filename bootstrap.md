@@ -11,13 +11,13 @@ Bootstrap is a free CSS framework for front-end web development. It contains CSS
 
 |Text colors| | | |
 |---|---|---|---|
-|.text-muted|.text-primary|.text-success|.text-info| 
-|.text-warning|.text-danger|.text-secondary|.text-white| 
+|.text-muted|.text-primary|.text-success|.text-info|
+|.text-warning|.text-danger|.text-secondary|.text-white|
 |.text-dark|.text-body|.text-light||
 
 |Background colors| | | |
 |---|---|---|---|
-|.bg-primary|.bg-success|.bg-info|.bg-warning| 
+|.bg-primary|.bg-success|.bg-info|.bg-warning|
 |.bg-danger|.bg-secondary|.bg-dark|.bg-light|
 
 ## Tables
