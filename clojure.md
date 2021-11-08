@@ -4,7 +4,7 @@ Write, Run & Share Clojure code online using OneCompiler's Clojure online compil
 # Read inputs from stdin
 OneCompiler's Clojure online editor supports stdin and users can give inputs to programs using the STDIN textbox under the I/O tab. Following is a sample Clojure program which takes name as input and prints hello message with your name.
 
-```lisp
+```py
 (println "Hello" (read-line))
 ```
 
@@ -19,33 +19,33 @@ Clojure is a dialect of Lisp and a dynamic general-purpose programming language
 
 ## variable declaration
 
-```lisp
+```py
 (def var-name var-value)
 ```
 
 ## Loops
 
 ### While
-```lisp
+```py
 (while(expression)
    (do
       statements))
 ```
 ### Doseq(similar to for-each)
-```lisp
+```py
 (doseq (sequence)
    statement)
 ```
 
 ### Dotimes
-```lisp
+```py
 (dotimes (variable value)
    statements)
 ```
 
 ### Loop
 
-```lisp
+```py
 loop [binding]
 (condition
    (statement)
@@ -56,10 +56,10 @@ loop [binding]
 
 ### Named Function
 
-```lisp
+```py
 (defn function-name  [parameters]  (codeblock) )
 ```
 ### Anonymous Functions
-```lisp
+```py
 (fn  [parameters]  (codeblock) )
 ```

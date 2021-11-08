@@ -5,7 +5,7 @@ Write, Run & Share Common Lisp code online using OneCompiler's Common Lisp onlin
 # Read inputs from stdin
 OneCompiler's Common Lisp online editor supports stdin and users can give inputs to programs using the STDIN textbox under the I/O tab. Following is a sample Common Lisp program which takes name as input and prints hello message with your name.
 
-```lisp
+```py
 (setq name (read))
 (princ "Hello ")
 (write name)
@@ -25,7 +25,7 @@ Common LISP was invented by John McCarthy in 1958 and was first implemenyted by 
 
 ### Example
 
-```lisp
+```py
 (defvar x 10)
 (write x)
 ```
@@ -34,7 +34,7 @@ Common LISP was invented by John McCarthy in 1958 and was first implemenyted by 
 
 ### Syntax
 
-```lisp
+```py
 (let ((var1  value1) (var2  value2).. (varn  valuen))<expressions>)
 ```
 
@@ -42,7 +42,7 @@ Common LISP was invented by John McCarthy in 1958 and was first implemenyted by 
 
 ### Example
 
-```lisp
+```py
 (setq a 10)
 ```
 
@@ -54,7 +54,7 @@ Common LISP was invented by John McCarthy in 1958 and was first implemenyted by 
 This is the simplest looping mechanism in LISP. This allows the execute the set of statements repeatedly until a return statement is encountered.
 
 ### Syntax
-```lisp
+```py
 (loop (s-expressions))
 ```
 
@@ -62,7 +62,7 @@ This is the simplest looping mechanism in LISP. This allows the execute the set 
 
 For loop is used to iterate a set of statements based on a condition.
 
-```lisp
+```py
 (loop for loop-variable in <a list>
    do (action)
 )
@@ -70,7 +70,7 @@ For loop is used to iterate a set of statements based on a condition.
 ### 3. Do:
 
 Do is also used to iterate a set of statements and then check the condition
-```lisp
+```py
 (do ((var1    val1   updated-val1)
       (var2   val2   updated-val2)
       (var3   val3   updated-val3)
@@ -86,7 +86,7 @@ Dotimes is used to iterate for fixed number of iterations.
 
 ### Syntax:
 
-```lisp
+```py
 (dotimes (n val)
   statements
 ```
