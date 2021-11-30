@@ -1,8 +1,8 @@
 # Java online compiler
-Write, Run & Share Java code online using OneCompiler's Java online compiler for free. It's one of the robust, feature-rich online compilers for Java language, running the latest Java version which is Java 11. Getting started with the OneCompiler's Java editor is easy and fast. The editor shows sample boilerplate code when you choose language as Java and you can also choose hundreds of reference programs to get started. For example, if you want to write a program on Java collections choose the collections tag from reference and see hundreds of pre-written programs on collections. You can pick one of them to start your coding. 
+Write, Run & Share Java code online using OneCompiler's Java online compiler for free. It's one of the robust, feature-rich online compilers for Java language, running the latest Java LTS version which is Java 11. Getting started with the OneCompiler's Java editor is easy and fast. The editor shows sample boilerplate code when you choose language as Java and you can also choose hundreds of reference programs to get started. For example, if you want to write a program on Java collections choose the collections tag from reference and see hundreds of pre-written programs on collections. You can pick one of them to start your coding. 
 
 # Taking inputs (stdin)
-OneCompiler's Java online editor supports stdin and users can give inputs to the programs using the STDIN textbox under the I/O tab. Using Scanner class in Java program can we can read the inputs. Following is a sample program shows how to read STDIN ( A string in this case ).
+OneCompiler's Java online editor supports stdin and users can give inputs to the programs using the STDIN textbox under the I/O tab. Using Scanner class in Java program we can read the inputs. Following is a sample program that shows reading STDIN ( A string in this case ).
 
 ```java
 import java.util.Scanner;
@@ -17,7 +17,7 @@ class Input {
 ```
 
 # Adding dependencies 
-OneCompiler supports Gradle for dependency management. Users can add dependencies in the `build.gradle` file and use them in their programs. When you add the dependencies for the first time, the first run might be a little slow as we download the dependencies but the subsequent runs will be faster. Following is a sample Gradle configuration shows how to add dependencies
+OneCompiler supports Gradle for dependency management. Users can add dependencies in the `build.gradle` file and use them in their programs. When you add the dependencies for the first time, the first run might be a little slow as we download the dependencies but the subsequent runs will be faster. Following sample Gradle configuration shows how to add dependencies
 
 ```java
 apply plugin:'application'
