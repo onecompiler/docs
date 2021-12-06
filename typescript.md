@@ -33,9 +33,9 @@ Typescript(JS) is a strongly typed programming language that builds on JavaScrip
 |`?.`|optional chaining|
 |`!`|null assertion|
 |`&&=`| used to assign value only if current value is truthy|
-|`||=`| used to assign value only if current value is falsy|
+|`\|\|=`| used to assign value only if current value is falsy|
 |`??=`|used to assign value if current value is null or undefined|
-
+ 
 ## Loops
 ### 1. If:
 
