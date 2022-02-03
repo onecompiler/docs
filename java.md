@@ -1,8 +1,8 @@
 # Java online compiler
-Write, Run & Share Java code online using OneCompiler's Java online compiler for free. It's one of the robust, feature-rich online compilers for Java language, running the latest Java LTS version which is Java 11. Getting started with the OneCompiler's Java editor is easy and fast. The editor shows sample boilerplate code when you choose language as Java and you can also choose hundreds of reference programs to get started. For example, if you want to write a program on Java collections choose the collections tag from reference and see hundreds of pre-written programs on collections. You can pick one of them to start your coding. 
+Write, Run & Share Java code online using OneCompiler's Java online compiler for free. It's one of the robust, feature-rich online compilers for Java language, running the latest Java LTS version which is Java 17. Getting started with the OneCompiler's Java editor is easy and fast. The editor shows sample boilerplate code when you choose language as Java, Happy coding!
 
 # Taking inputs (stdin)
-OneCompiler's Java online editor supports stdin and users can give inputs to the programs using the STDIN textbox under the I/O tab. Using Scanner class in Java program we can read the inputs. Following is a sample program that shows reading STDIN ( A string in this case ).
+OneCompiler's Java online editor supports stdin and users can give inputs to the programs using the STDIN textbox under the I/O tab. Using Scanner class in Java program, you can read the inputs. Following is a sample program that shows reading STDIN ( A string in this case ).
 
 ```java
 import java.util.Scanner;
@@ -31,13 +31,13 @@ repositories {
 }
 
 dependencies {
-    // add dependencies here like following
+    // add dependencies here as below
     compile group: 'org.apache.commons', name: 'commons-lang3', version: '3.9'
 }
 ```
 # About Java
 
-Java is a very popular general-purpose programming language, it is class-based and object-oriented. Java was developed by James Gosling at Sun Microsystems ( later acquired by Oracle) the initial release of Java was in 1995. Java 11 is the latest long-term supported version (LTS). As of today, Java is the world's number one server programming language with a 12 million developer community, 5 million students studying worldwide and it's #1 choice for the cloud development.
+Java is a very popular general-purpose programming language, it is class-based and object-oriented. Java was developed by James Gosling at Sun Microsystems ( later acquired by Oracle) the initial release of Java was in 1995. Java 17 is the latest long-term supported version (LTS). As of today, Java is the world's number one server programming language with a 12 million developer community, 5 million students studying worldwide and it's #1 choice for the cloud development.
 
 # Syntax help 
 
@@ -82,7 +82,7 @@ for(Initialization; Condition; Increment/decrement){
 ```
 ### 4. While:
 
-While is also used to iterate a set of statements based on a condition. Usually while is preferred when number of ierations is not known in advance.
+While is also used to iterate a set of statements based on a condition. Usually while is preferred when number of iterations are not known in advance.
 
 ```java
 while(condition){  
