@@ -1,6 +1,6 @@
 # NodeJS Online Compiler
 
-Write, Run & Share NodeJS code online using OneCompiler's NodeJS online compiler for free. It's one of the robust, feature-rich online compilers for NodeJS language,running on the latest LTS version NodeJS 12.14.0. Getting started with the OneCompiler's NodeJS editor is easy and fast. The editor shows sample boilerplate code when you choose language as NodeJS. OneCompiler also has reference programs, where you can look for the sample code and start learning. You can provide the dependencies in `package.json`. 
+Write, Run & Share NodeJS code online using OneCompiler's NodeJS online compiler for free. It's one of the robust, feature-rich online compilers for NodeJS language,running on the latest LTS version NodeJS 12.14.0. Getting started with the OneCompiler's NodeJS editor is easy and fast. The editor shows sample boilerplate code when you choose language as NodeJS and start learning. You can provide the dependencies in `package.json`. 
 
 # About NodeJS
 
@@ -25,44 +25,29 @@ Express is one of the most popular web application framework in the NodeJS echos
 * Unopinionated
 * Very flexible
 
-## How to install express
-
-```sh
-npm install express
-```
-
 # Syntax help
 
-## Hello World server example
+## Examples 
+
+### Using Moment
 
 ```javascript
-const express = require('express');
-const app = express();
+let moment = require('moment');
 
-app.set('port', (process.env.PORT || config.port));
-
-app.get('/', (req, res) => res.send('Hello World!'));
-
-app.listen(app.get('port'), () => console.log(`Server started on ${app.get('port')} port`))
+console.log(moment().format('MMMM Do YYYY, h:mm:ss a'));
 ```
 
-## Basic routing
-
+### Using Lodash
 ```javascript
-//GET
-app.get('/', function (req, res) {
-  res.send('Hello World!')
-})
+const _ = require("lodash");
 
-//POST 
-app.post('/', function (req, res) {
-  res.send('POST request. body:', req.body)
-})
+let colors = ['blue', 'green', 'yellow', 'red'];
 
-//DELETE
-app.delete('/:id', function (req, res) {
-  res.send('DELETE request for id:'. req.params.id)
-})
+let firstElement = _.first(colors);
+let lastElement = _.last(colors);
+
+console.log(`First element: ${firstElement}`);
+console.log(`Last element: ${lastElement}`);
 ```
 
 ## Libraries supported

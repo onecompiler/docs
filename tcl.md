@@ -1,6 +1,6 @@
 # Tool Command Language(TCL) online compiler
 
-Write, Run & Share TCL code online using OneCompiler's TCL online compiler for free. It's one of the robust, feature-rich online compilers for TCL language, running the latest TCL version 8.6. Getting started with the OneCompiler's TCL editor is easy and fast. The editor shows sample boilerplate code when you choose language as TCL. OneCompiler also has reference programs, where you can look for the sample code and start learning. Happy learning!!
+Write, Run & Share TCL code online using OneCompiler's TCL online compiler for free. It's one of the robust, feature-rich online compilers for TCL language, running the latest TCL version 8.6. Getting started with the OneCompiler's TCL editor is easy and fast. The editor shows sample boilerplate code when you choose language as TCL and start coding. Happy learning!!
 
 # Taking inputs (stdin)
 OneCompiler's TCL online editor supports stdin and users can give inputs to programs using the STDIN textbox under the I/O tab. Following is a sample TCL program which takes name as input and prints hello message with your name.

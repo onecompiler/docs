@@ -73,7 +73,7 @@ default:
 ```
 ### 3. For:
 
-For loop is used to iterate a set of statements based on a condition. Usually for loop is preferred when number of ierations is known in advance.
+For loop is used to iterate a set of statements based on a condition. Usually for loop is preferred when number of iterations is known in advance.
 
 ```java
 for(Initialization; Condition; Increment/decrement){  

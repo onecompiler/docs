@@ -48,7 +48,7 @@ if boolean-condition then (* code if condition is true*) else (* code if conditi
 
 ### 2. While:
 
-While is used to iterate a set of statements based on a condition. Usually while is preferred when number of ierations is not known in advance.
+While is used to iterate a set of statements based on a condition. Usually while is preferred when number of iterations is not known in advance.
 
 ```javascript
 while boolean-condition do

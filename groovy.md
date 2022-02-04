@@ -1,5 +1,5 @@
 # Groovy online compiler
-Write, Run & Share Groovy code online using OneCompiler's Groovy online compiler for free. It's one of the robust, feature-rich online compilers for Groovy language, running the latest Groovy version 2.6. Getting started with the OneCompiler's Groovy editor is easy and fast. The editor shows sample boilerplate code when you choose language as Groovy. OneCompiler also has reference programs, where you can look for the sample code and start learning. Happy learning!!
+Write, Run & Share Groovy code online using OneCompiler's Groovy online compiler for free. It's one of the robust, feature-rich online compilers for Groovy language, running the latest Groovy version 2.6. Getting started with the OneCompiler's Groovy editor is easy and fast. The editor shows sample boilerplate code when you choose language as Groovy and start coding.
 
 # Read inputs from stdin
 OneCompiler's Groovy online editor supports stdin and users can give inputs to programs using the STDIN textbox under the I/O tab. Following is a sample Groovy program which takes name as input and prints hello message with your name.
@@ -104,16 +104,16 @@ def mylist = [1,2,3,4,5];
 
 | List Methods | Description |
 |-----|------|
-|size()| to find size of elements|
-|sort()|to sort the elements|
-|add()|to append new value at the end|
-|contains()|Returns true if this List contains requested value.|
-|get()|Returns the element of the list at the definite position|
-|pop()|to remove the last item from the List|
-|isEmpty()|Returns true if List contains no elements|
-|minus()|This allows you to exclude few specified elements from the elements of the original|
-|plus()|This allows you to add few specified elements to the elements of the original|
+|size()| To find size of elements|
+|sort()| To sort the elements|
+|add()| To append new value at the end|
+|contains()| Returns true if this List contains requested value.|
+|get()| Returns the element of the list at the definite position|
+|pop()| To remove the last item from the List|
+|isEmpty()| Returns true if List contains no elements|
+|minus()| This allows you to exclude few specified elements from the elements of the original|
+|plus()| This allows you to add few specified elements to the elements of the original|
 |remove()| To remove the element present at the specific position|
-|reverse()|to reverse the elements of the original List and creates new list|
+|reverse()|To reverse the elements of the original List and creates new list|
 
 
