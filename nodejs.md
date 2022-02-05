@@ -1,6 +1,6 @@
 # NodeJS Online Compiler
 
-Write, Run & Share NodeJS code online using OneCompiler's NodeJS online compiler for free. It's one of the robust, feature-rich online compilers for NodeJS language,running on the latest LTS version NodeJS 12.14.0. Getting started with the OneCompiler's NodeJS editor is easy and fast. The editor shows sample boilerplate code when you choose language as NodeJS and start learning. You can provide the dependencies in `package.json`. 
+Write, Run & Share NodeJS code online using OneCompiler's NodeJS online compiler for free. It's one of the robust, feature-rich online compilers for NodeJS language,running on the LTS version NodeJS 12.14.0. Getting started with the OneCompiler's NodeJS editor is easy and fast. The editor shows sample boilerplate code when you choose language as NodeJS and start learning. You can provide the dependencies in `package.json`. 
 
 # About NodeJS
 
