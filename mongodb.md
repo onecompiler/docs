@@ -20,23 +20,20 @@ MongoDB is a cross platform document oriented NoSQL database.
 
 1. `db.collection.insert()`: Using `insert` you can either insert one document or array of documents 
 ```json
-db.cars.insert({  "name" : "Volvo xc 60",  "type" : "SUV" });
+db.employees.insert(   {empId: 3, name: 'Ava', dept: 'Sales' });
 ```
 
 2. `db.collection.insertOne()`: Inserts one document 
 ```json
-db.cars.insertOne({  "name" : "Volvo xc 60",  "type" : "SUV" });
+db.employees.insertOne(  {empId: 4, name: 'Nick', dept: 'Accounting' });
 ```
 
 3. `db.collection.insertMany`: Inserts multiple documents
 ```json
-db.cars.insertMany(
- [
-   { "name" : "Volvo xc 60",  "type" : "SUV" },
-   { "name" : "Volvo xc 90",  "type" : "SUV" },
-   { "name" : "Volvo S90",  "type" : "SUV" }
- ]
-);
+db.employees.insertMany([
+  {empId: 1, name: 'Clark', dept: 'Sales' },
+  {empId: 2, name: 'Dave', dept: 'Accounting' }
+]);
 ```
 
 ### Updating documents 
@@ -44,35 +41,34 @@ db.cars.insertMany(
 1. `db.collection.update()` : Updates one or more than one document(s) in collection based on matching document and based on `multi` option
 
 ```json
-db.cars.update(
-  { type: "SUV" },
-  { $set: { size : 5} },
-  { multi: true}
-)
+db.employees.update(   
+  {empId: 3 },
+  { $set: { region: "Asia" } }
+);
 ```
 2.  `db.collection.updateOne()` : Updates a single document in collection based on matching document 
 ```json
-db.cars.updateOne(
-  { type: "SUV" },
-  { $set: { size : 5} }
-)
+db.employees.updateOne(   
+  {empId: 2 },
+  { $set: { region: "Asia" } }
+);
 ```
 3.  `db.collection.updateMany()` : Updates multiple documents in collection based on the condition.
 ```json
-db.cars.updateMany(
-  { type: "hatchback" },
-  { $set: { size : 5} }
-)
+db.employees.updateMany(   
+  { dept: 'Sales'},
+  { $set: { region: "US" } }
+);
 ```
 
 ### Deleting documents
 
 1. `db.collection.deleteOne(<filter>, <options>)`: Deletes a Single document from collection
 ```json
-db.employees.deleteOne({_id: 1})
+db.employees.deleteOne({ empId: 1})
 ```
 
 2. `db.collection.deleteMany(<filter>, <options>)`: Deletes all documents with matching filter
 ```json
-db.employees.deleteMany({type: "hatchback"})
+db.employees.deleteMany({ dept: 'Sales'})
 ```
