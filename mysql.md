@@ -20,33 +20,6 @@ MySQL is a open-source, free and very popular relational database management sys
 
 ## Commands
 
-### Creating a database
-
-```sql
-CREATE DATABASE [IF NOT EXISTS] db_name;
-```
-### Use a database
-
-```sql
-USE db_name;
-```
-### Drop a database
-
-```sql
-DROP DATABASE [IF EXISTS] db_name;
-```
-### Show available databases in the working database server
-
-```sql
-SHOW DATABASE;
-```
-### Display all the tables present in the database
-
-```sql
-SHOW TABLES;
-```
-##  DDL Commands
-
 ### 1. CREATE 
 
 ```sql
@@ -55,9 +28,23 @@ CREATE TABLE table_name (
                 column2 datatype,
                 ....);
 ``` 
+
+### Example
+```sql
+CREATE TABLE EMPLOYEE (
+  empId INTEGER PRIMARY KEY,
+  name TEXT NOT NULL,
+  dept TEXT NOT NULL
+);
+```
 ### 2. ALTER
 ```sql 
 ALTER TABLE Table_name ADD column_name datatype;
+```
+
+### Example
+```sql
+INSERT INTO EMPLOYEE VALUES (0001, 'Dave', 'Sales');
 ```
 ### 3. TRUNCATE
 ```sql
@@ -91,12 +78,21 @@ INSERT INTO table_name (column1, column2, column3, ...) VALUES (value1, value2, 
 ```
 Note: Column names are optional.
 
+### Example
+```sql
+INSERT INTO EMPLOYEE VALUES (0001, 'Ava', 'Sales');
+```
 ### 2. SELECT 
 
 ```sql
 SELECT column1, column2, ...
 FROM table_name
 [where condition]; 
+```
+
+### Example
+```sql
+SELECT * FROM EMPLOYEE where dept ='sales';
 ```
 ### 3. UPDATE 
 
@@ -105,44 +101,18 @@ UPDATE table_name
 SET column1 = value1, column2 = value2, ...
 WHERE condition; 
 ```
+### Example
+```sql
+UPDATE EMPLOYEE SET dept = 'Sales' WHERE empId='0001'; 
+```
 ### 4. DELETE 
 
 ```sql 
 DELETE FROM table_name where condition;
 ```
-
-## DCL Commands
-
-### 1. GRANT
-
+### Example
 ```sql
-GRANT privileges ON object TO user;
-```
-### 2. REVOKE
-
-```sql
-REVOKE privileges ON object FROM user;
-```
-## TCL commands
-
-### 1. COMMIT
-
-```sql
-COMMIT;
-```
-### 2. ROLLBACK  
-
-```sql
-ROLLBACK;
-```
-## 3. SAVEPOINT
-```sql
-SAVEPOINT savepoint_name;
-ROLLBACK TO savepoint_name; 
-```
-How to delete a savepoint:
-```sql
-RELEASE SAVEPOINT savepoint_name;
+DELETE from EMPLOYEE where empId='0001'; 
 ```
 
 ## Indexes

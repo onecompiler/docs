@@ -88,7 +88,7 @@ end if
 
 ### 4. If-Else:
 
-If is used to execute a set of statements based on a condition and execute another set of statements present in else block if condition specified in If block fails.
+If is used to execute a set of statements based on a condition and execute another set of statements present in else block, if condition specified in If block fails.
 
 ```fortran
 if (logical-expression) then     
