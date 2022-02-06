@@ -1,6 +1,6 @@
 # PHP Online Compiler
 
-Write, Run & Share PHP code online using OneCompiler's PHP online compiler for free. It's one of the robust, feature-rich online compilers for PHP language, running on the latest version 7. Getting started with the OneCompiler's PHP compiler is simple and pretty fast. The editor shows sample boilerplate code when you choose language as `PHP`. OneCompiler also has reference programs, where you can look for the sample programs and start learning. Happy learning!!
+Write, Run & Share PHP code online using OneCompiler's PHP online compiler for free. It's one of the robust, feature-rich online compilers for PHP language, running on the latest version 7. Getting started with the OneCompiler's PHP compiler is simple and pretty fast. The editor shows sample boilerplate code when you choose language as `PHP` and start coding. Happy learning!
 
 # Taking inputs (stdin)
 
@@ -117,7 +117,7 @@ foreach ($array as $key => $element-value) {
 ```
 ### 4. While:
 
-While is also used to iterate a set of statements based on a condition. Usually while is preferred when number of iterations is not known in advance.
+While is also used to iterate a set of statements based on a condition. Usually while is preferred when number of iterations are not known in advance.
 
 ```php
 while(condition) {  

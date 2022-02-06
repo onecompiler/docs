@@ -1,6 +1,6 @@
 # Typescript Online Compiler
 
-Write, Run & Share Typescript code online using OneCompiler's Typescript online compiler for free. It's one of the robust, feature-rich online compilers for Typescript language. Getting started with the OneCompiler's Typescript editor is easy and fast. The editor shows sample boilerplate code when you choose language as Typescript. OneCompiler also has reference programs, where you can look for the sample programs and start learning. Happy learning!!
+Write, Run & Share Typescript code online using OneCompiler's Typescript online compiler for free. It's one of the robust, feature-rich online compilers for Typescript language. Getting started with the OneCompiler's Typescript editor is easy and fast. The editor shows sample boilerplate code when you choose language as Typescript and start coding. Happy learning!
 
 # About Typescript
 
@@ -102,7 +102,7 @@ for (let index in arr) {
 
 ### 5. While
 
-While is also used to iterate a set of statements based on a condition. Usually while is preferred when number of iterations is not known in advance.
+While is also used to iterate a set of statements based on a condition. Usually while is preferred when number of iterations are not known in advance.
 
 ```js
 while (condition) {  

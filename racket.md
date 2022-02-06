@@ -1,6 +1,6 @@
 # Racket Online Compiler
 
-Write, Run & Share Racket code online using OneCompiler's Racket online compiler for free. It's one of the robust, feature-rich online compilers for Racket language, running on the latest version 6.8. Getting started with the OneCompiler's Racket compiler is simple and pretty fast. The editor shows sample boilerplate code when you choose language as `Racket`. OneCompiler also has reference programs, where you can look for the sample programs and start learning. Happy learning!!
+Write, Run & Share Racket code online using OneCompiler's Racket online compiler for free. It's one of the robust, feature-rich online compilers for Racket language, running on the latest version 6.8. Getting started with the OneCompiler's Racket compiler is simple and pretty fast. The editor shows sample boilerplate code when you choose language as `Racket` and start coding. Happy learning!
 
 # Taking inputs (stdin)
 

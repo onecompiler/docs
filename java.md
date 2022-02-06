@@ -1,5 +1,5 @@
 # Java online compiler
-Write, Run & Share Java code online using OneCompiler's Java online compiler for free. It's one of the robust, feature-rich online compilers for Java language, running the Java LTS version 11. Getting started with the OneCompiler's Java editor is easy and fast. The editor shows sample boilerplate code when you choose language as Java, Happy coding!
+Write, Run & Share Java code online using OneCompiler's Java online compiler for free. It's one of the robust, feature-rich online compilers for Java language, running the Java LTS version 11. Getting started with the OneCompiler's Java editor is easy and fast. The editor shows sample boilerplate code when you choose language as Java and start coding.
 
 # Taking inputs (stdin)
 OneCompiler's Java online editor supports stdin and users can give inputs to the programs using the STDIN textbox under the I/O tab. Using Scanner class in Java program, you can read the inputs. Following is a sample program that shows reading STDIN ( A string in this case ).
@@ -125,7 +125,7 @@ Mobile m1;
 ```java
 public class Greeting {
     static void hello() {
-        System.out.println("Hello.. Happy learning!!");
+        System.out.println("Hello.. Happy learning!");
     }
 
     public static void main(String[] args) {

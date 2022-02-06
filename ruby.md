@@ -1,6 +1,6 @@
 # Ruby Online Compiler
 
-Write, Run & Share Ruby code online using OneCompiler's Ruby online compiler for free. It's one of the robust, feature-rich online compilers for Ruby language, running on the latest version 2.3.1. Getting started with the OneCompiler's Ruby compiler is simple and pretty fast. The editor shows sample boilerplate code when you choose language as `Ruby`. OneCompiler also has reference programs, where you can look for the sample programs and start learning. Happy learning!!
+Write, Run & Share Ruby code online using OneCompiler's Ruby online compiler for free. It's one of the robust, feature-rich online compilers for Ruby language, running on the latest version 2.3.1. Getting started with the OneCompiler's Ruby compiler is simple and pretty fast. The editor shows sample boilerplate code when you choose language as `Ruby` and start coding. Happy learning!
 
 # Read input from STDIN in Ruby
 
@@ -109,7 +109,7 @@ end
 ```
 ### 4. While:
 
-While is also used to iterate a set of statements based on a condition. Usually while is preferred when number of iterations is not known in advance.
+While is also used to iterate a set of statements based on a condition. Usually while is preferred when number of iterations are not known in advance.
 
 ```ruby
 while condition do   

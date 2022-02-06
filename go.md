@@ -1,6 +1,6 @@
 # Go Online Compiler
 
-Write, Run & Share Go code online using OneCompiler's Go online compiler for free. It's one of the robust, feature-rich online compilers for Go language, running on the latest version 1.10.2. Getting started with the OneCompiler's Go compiler is simple and pretty fast. The editor shows sample boilerplate code when you choose language as `GO`. OneCompiler also has reference programs, where you can look for the sample programs and start learning. Happy learning!!
+Write, Run & Share Go code online using OneCompiler's Go online compiler for free. It's one of the robust, feature-rich online compilers for Go language, running on the latest version 1.10.2. Getting started with the OneCompiler's Go compiler is simple and pretty fast. The editor shows sample boilerplate code when you choose language as `GO` and start coding. Happy learning!
 
 # Read inputs from stdin
 OneCompiler's Go online editor supports stdin and users can give inputs to programs using the STDIN textbox under the I/O tab. Following is a sample Go program which takes name as input and prints hello message with your name.
