@@ -1,6 +1,6 @@
 # Lua online compiler
 
-Write, Run & Share Lua code online using OneCompiler's Lua online compiler for free. It's one of the robust, feature-rich online compilers for Lua language, running the latest Lua version 5.3. Getting started with the OneCompiler's Lua editor is easy and fast. The editor shows sample boilerplate code when you choose language as Lua and start coding. Happy learning!
+Write, Run & Share Lua code online using OneCompiler's Lua online compiler for free. It's one of the robust, feature-rich online compilers for Lua language, running the latest Lua version 5.3. Getting started with the OneCompiler's Lua editor is easy and fast. The editor shows sample boilerplate code when you choose language as Lua and start coding. 
 
 # Taking inputs (stdin)
 OneCompiler's Lua online editor supports stdin and users can give inputs to programs using the STDIN textbox under the I/O tab. Following is a sample Lua program which takes name as input and prints hello message with your name.

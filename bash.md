@@ -1,6 +1,6 @@
 # Online Bash Shell
 
-Write, Run & Share Bash code online using OneCompiler's Online Bash Shell for free. It's one of the robust, feature-rich Bash shell available over online and getting started with the OneCompiler's Bash Shell is simple and pretty fast. The editor shows sample boilerplate code when you choose language as `Bash`. OneCompiler also has reference scripts, where you can look for the sample scripts and start coding. Happy learning!
+Write, Run & Share Bash code online using OneCompiler's Online Bash Shell for free. It's one of the robust, feature-rich Bash shell available over online and getting started with the OneCompiler's Bash Shell is simple and pretty fast. The editor shows sample boilerplate code when you choose language as `Bash`. OneCompiler also has reference scripts, where you can look for the sample scripts and start coding. 
 
 # About Bash
 

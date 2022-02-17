@@ -1,6 +1,6 @@
 # PHP Online Compiler
 
-Write, Run & Share PHP code online using OneCompiler's PHP online compiler for free. It's one of the robust, feature-rich online compilers for PHP language, running on the latest version 7. Getting started with the OneCompiler's PHP compiler is simple and pretty fast. The editor shows sample boilerplate code when you choose language as `PHP` and start coding. Happy learning!
+Write, Run & Share PHP code online using OneCompiler's PHP online compiler for free. It's one of the robust, feature-rich online compilers for PHP language, running on the latest version 7. Getting started with the OneCompiler's PHP compiler is simple and pretty fast. The editor shows sample boilerplate code when you choose language as `PHP` and start coding. 
 
 # Taking inputs (stdin)
 

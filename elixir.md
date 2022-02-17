@@ -1,6 +1,6 @@
 # Elixir Online Compiler
 
-Write, Run & Share Elixir code online using OneCompiler's Elixir online compiler for free. It's one of the robust, feature-rich online compilers for Elixir language, running on the latest version 1.9.4. Getting started with the OneCompiler's Elixir compiler is simple and pretty fast. The editor shows sample boilerplate code when you choose language as `Elixir` and start coding. Happy learning!
+Write, Run & Share Elixir code online using OneCompiler's Elixir online compiler for free. It's one of the robust, feature-rich online compilers for Elixir language, running on the latest version 1.9.4. Getting started with the OneCompiler's Elixir compiler is simple and pretty fast. The editor shows sample boilerplate code when you choose language as `Elixir` and start coding. 
 
 # About Elixir
 

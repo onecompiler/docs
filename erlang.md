@@ -1,6 +1,6 @@
 # Erlang Online Compiler
 
-Write, Run & Share Erlang code online using OneCompiler's Erlang online compiler for free. It's one of the robust, feature-rich online compilers for Erlang language, running on the latest version 21. Getting started with the OneCompiler's Erlang compiler is simple and pretty fast. The editor shows sample boilerplate code when you choose language as `Erlang` and start coding. Happy learning!
+Write, Run & Share Erlang code online using OneCompiler's Erlang online compiler for free. It's one of the robust, feature-rich online compilers for Erlang language, running on the latest version 21. Getting started with the OneCompiler's Erlang compiler is simple and pretty fast. The editor shows sample boilerplate code when you choose language as `Erlang` and start coding. 
 
 # About Erlang
 
@@ -34,7 +34,7 @@ variable-name = value
 | Bit String|  str = <<10,20>>| Strings are enclosed in << >> and are used to store untyped memory|
 | Lists|`[1,2,3]`| Lists is a compound data type with Variable number of elements.|
 | Tuples| t = {apple, 100, {orange,50}} | Tuple is a compound data type with fixed number of elements.|
-|Map| map = #{name=>onecompiler,message=>Learning}| Map is a compound data type with a variable number of key-value pairs|
+|Map| map = #{name => onecompiler, message => Learning}| Map is a compound data type with a variable number of key-value pairs|
 
 ## Loops
 

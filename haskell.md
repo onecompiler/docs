@@ -1,5 +1,5 @@
 # Haskell online compiler
-Write, Run & Share Haskell code online using OneCompiler's Haskell online compiler for free. It's one of the robust, feature-rich online compilers for Haskell language, running the latest Haskell version 8.6. Getting started with the OneCompiler's Haskell editor is easy and fast. The editor shows sample boilerplate code when you choose language as Haskell and start coding. Happy learning!
+Write, Run & Share Haskell code online using OneCompiler's Haskell online compiler for free. It's one of the robust, feature-rich online compilers for Haskell language, running the latest Haskell version 8.6. Getting started with the OneCompiler's Haskell editor is easy and fast. The editor shows sample boilerplate code when you choose language as Haskell and start coding. 
 
 # Taking inputs (stdin)
 OneCompiler's Haskell online editor supports stdin and users can give inputs to programs using the STDIN textbox under the I/O tab. Following is a sample Haskell program which takes name as input and prints hello message with your name.

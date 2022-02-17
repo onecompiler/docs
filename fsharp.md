@@ -1,6 +1,6 @@
 # F sharp Online Compiler
 
-Write, Run & Share `F#` code online using OneCompiler's F# online compiler for free. It's one of the robust, feature-rich online compilers for `F#` language, running on the latest version 4.0. Getting started with the OneCompiler's `F#` compiler is simple and pretty fast. The editor shows sample boilerplate code when you choose language as `F#` and start coding. Happy learning!
+Write, Run & Share `F#` code online using OneCompiler's F# online compiler for free. It's one of the robust, feature-rich online compilers for `F#` language, running on the latest version 4.0. Getting started with the OneCompiler's `F#` compiler is simple and pretty fast. The editor shows sample boilerplate code when you choose language as `F#` and start coding. 
 
 # Read inputs from stdin
 

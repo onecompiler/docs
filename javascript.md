@@ -1,6 +1,6 @@
 # Javascript Online Compiler
 
-Write, Run & Share Javascript code online using OneCompiler's JS online compiler for free. It's one of the robust, feature-rich online compilers for Javascript language. Getting started with the OneCompiler's Javascript editor is easy and fast. The editor shows sample boilerplate code when you choose language as Javascript and start coding. Happy learning!
+Write, Run & Share Javascript code online using OneCompiler's JS online compiler for free. It's one of the robust, feature-rich online compilers for Javascript language. Getting started with the OneCompiler's Javascript editor is easy and fast. The editor shows sample boilerplate code when you choose language as Javascript and start coding. 
 
 # About Javascript
 

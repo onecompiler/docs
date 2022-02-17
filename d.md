@@ -1,6 +1,6 @@
 # D Language Online Compiler
 
-Write, Run & Share D language code online using OneCompiler's D language online compiler for free. It's one of the robust, feature-rich online compilers for D language. Getting started with the OneCompiler's D language compiler is simple and pretty fast. The editor shows sample boilerplate code  when you choose language as `D` and start coding. Happy learning!
+Write, Run & Share D language code online using OneCompiler's D language online compiler for free. It's one of the robust, feature-rich online compilers for D language. Getting started with the OneCompiler's D language compiler is simple and pretty fast. The editor shows sample boilerplate code  when you choose language as `D` and start coding. 
 
 # About D language
 

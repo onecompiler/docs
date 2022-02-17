@@ -1,5 +1,5 @@
 # Clojure online compiler
-Write, Run & Share Clojure code online using OneCompiler's Clojure online compiler for free. It's one of the robust, feature-rich online compilers for Clojure language, Getting started with the OneCompiler's Clojure editor is easy and fast. The editor shows sample boilerplate code when you choose language as Clojure and start coding. Happy learning! 
+Write, Run & Share Clojure code online using OneCompiler's Clojure online compiler for free. It's one of the robust, feature-rich online compilers for Clojure language, Getting started with the OneCompiler's Clojure editor is easy and fast. The editor shows sample boilerplate code when you choose language as Clojure and start coding.  
 
 # Read inputs from stdin
 OneCompiler's Clojure online editor supports stdin and users can give inputs to programs using the STDIN textbox under the I/O tab. Following is a sample Clojure program which takes name as input and prints hello message with your name.

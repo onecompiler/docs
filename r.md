@@ -1,6 +1,6 @@
 # R Language Online Compiler
 
-Write, Run & Share R Language code online using OneCompiler's R Language online compiler for free. It's one of the robust, feature-rich online compilers for R language, running on the latest version 3.4. Getting started with the OneCompiler's R Language compiler is simple and pretty fast. The editor shows sample boilerplate code when you choose language as `R` and start coding. Happy learning!
+Write, Run & Share R Language code online using OneCompiler's R Language online compiler for free. It's one of the robust, feature-rich online compilers for R language, running on the latest version 3.4. Getting started with the OneCompiler's R Language compiler is simple and pretty fast. The editor shows sample boilerplate code when you choose language as `R` and start coding. 
 
 # About R
 

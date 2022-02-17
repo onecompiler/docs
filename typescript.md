@@ -1,6 +1,6 @@
 # Typescript Online Compiler
 
-Write, Run & Share Typescript code online using OneCompiler's Typescript online compiler for free. It's one of the robust, feature-rich online compilers for Typescript language. Getting started with the OneCompiler's Typescript editor is easy and fast. The editor shows sample boilerplate code when you choose language as Typescript and start coding. Happy learning!
+Write, Run & Share Typescript code online using OneCompiler's Typescript online compiler for free. It's one of the robust, feature-rich online compilers for Typescript language. Getting started with the OneCompiler's Typescript editor is easy and fast. The editor shows sample boilerplate code when you choose language as Typescript and start coding. 
 
 # About Typescript
 
