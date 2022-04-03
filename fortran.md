@@ -1,6 +1,6 @@
 # Fortran Online Compiler
 
-Write, Run & Share Fortran code online using OneCompiler's Fortran online compiler for free. It's one of the robust, feature-rich online compilers for Fortran language, running on the latest version 7. Getting started with the OneCompiler's Fortran compiler is simple and pretty fast. The editor shows sample boilerplate code when you choose language as `Fortran`. OneCompiler also has reference programs, where you can look for the sample programs and start learning. Happy learning!!
+Write, Run & Share Fortran code online using OneCompiler's Fortran online compiler for free. It's one of the robust, feature-rich online compilers for Fortran language, running on the latest version 7. Getting started with the OneCompiler's Fortran compiler is simple and pretty fast. The editor shows sample boilerplate code when you choose language as `Fortran` and start coding. 
 
 # Read inputs from stdin
 
@@ -88,7 +88,7 @@ end if
 
 ### 4. If-Else:
 
-If is used to execute a set of statements based on a condition and execute another set of statements present in else block if condition specified in If block fails.
+If is used to execute a set of statements based on a condition and execute another set of statements present in else block, if condition specified in If block fails.
 
 ```fortran
 if (logical-expression) then     

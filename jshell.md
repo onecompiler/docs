@@ -1,5 +1,5 @@
 # Jshell online compiler
-Write, Run & Share Jshell code online using OneCompiler's Jshell online compiler for free. It's one of the robust, feature-rich online compilers for Jshell language, running the Jshell version 11. Getting started with the OneCompiler's Jshell editor is easy and fast. The editor shows sample boilerplate code when you choose language as Jshell. OneCompiler also has reference programs, where you can look for the sample code and start learning. Happy learning!!
+Write, Run & Share Jshell code online using OneCompiler's Jshell online compiler for free. It's one of the robust, feature-rich online compilers for Jshell language, running the Jshell version 11. Getting started with the OneCompiler's Jshell editor is easy and fast. The editor shows sample boilerplate code when you choose language as Jshell and start coding. 
 
 # About Jshell
 
@@ -44,7 +44,7 @@ if(x%2 == 0) {
 ```
 ### 2. For:
 
-For loop is used to iterate a set of statements based on a condition. Usually for loop is preferred when number of ierations is known in advance.
+For loop is used to iterate a set of statements based on a condition. Usually for loop is preferred when number of iterations is known in advance.
 
 ```java
 for(Initialization; Condition; Increment/decrement){  
@@ -53,7 +53,7 @@ for(Initialization; Condition; Increment/decrement){
 ```
 ### 3. While:
 
-While is also used to iterate a set of statements based on a condition. Usually while is preferred when number of iterations is not known in advance.
+While is also used to iterate a set of statements based on a condition. Usually while is preferred when number of iterations are not known in advance.
 
 ```java
 while(condition){  

@@ -1,6 +1,6 @@
 # Javascript Online Compiler
 
-Write, Run & Share Javascript code online using OneCompiler's JS online compiler for free. It's one of the robust, feature-rich online compilers for Javascript language. Getting started with the OneCompiler's Javascript editor is easy and fast. The editor shows sample boilerplate code when you choose language as Javascript. OneCompiler also has reference programs, where you can look for the sample programs and start learning. Happy learning!!
+Write, Run & Share Javascript code online using OneCompiler's JS online compiler for free. It's one of the robust, feature-rich online compilers for Javascript language. Getting started with the OneCompiler's Javascript editor is easy and fast. The editor shows sample boilerplate code when you choose language as Javascript and start coding. 
 
 # About Javascript
 
@@ -11,7 +11,7 @@ Javascript(JS) is a object-oriented programming language which adhere to ECMA Sc
 * Open-source
 * Just-in-time compiled language
 * Embedded along with HTML and makes web pages alive
-* Originally names as LiveScript.
+* Originally named as LiveScript.
 * Executable in both browser and server which has Javascript engines like V8(chrome), SpiderMonkey(Firefox) etc.
 
 # Syntax help
@@ -22,7 +22,7 @@ Javascript(JS) is a object-oriented programming language which adhere to ECMA Sc
 |----|----|----|
 |var| Var is used to declare variables(old way of declaring variables)| Function or global scope|
 |let| let is also used to declare variables(new way)|Global or block Scope|
-|const|const is used to declare const values. Once the value is assigned it can not be modified|Global or block Scope|
+|const|const is used to declare const values. Once the value is assigned, it can not be modified|Global or block Scope|
 
 ## Backtick Strings
 
@@ -181,7 +181,7 @@ for(Initialization; Condition; Increment/decrement){
 
 ### 5. While
 
-While is also used to iterate a set of statements based on a condition. Usually while is preferred when number of ierations is not known in advance.
+While is also used to iterate a set of statements based on a condition. Usually while is preferred when number of iterations are not known in advance.
 
 ```javascript
 while (condition) {  

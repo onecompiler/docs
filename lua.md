@@ -1,6 +1,6 @@
 # Lua online compiler
 
-Write, Run & Share Lua code online using OneCompiler's Lua online compiler for free. It's one of the robust, feature-rich online compilers for Lua language, running the latest Lua version 5.3. Getting started with the OneCompiler's Lua editor is easy and fast. The editor shows sample boilerplate code when you choose language as Lua. OneCompiler also has reference programs, where you can look for the sample code and start learning. Happy learning!!
+Write, Run & Share Lua code online using OneCompiler's Lua online compiler for free. It's one of the robust, feature-rich online compilers for Lua language, running the latest Lua version 5.3. Getting started with the OneCompiler's Lua editor is easy and fast. The editor shows sample boilerplate code when you choose language as Lua and start coding. 
 
 # Taking inputs (stdin)
 OneCompiler's Lua online editor supports stdin and users can give inputs to programs using the STDIN textbox under the I/O tab. Following is a sample Lua program which takes name as input and prints hello message with your name.
@@ -18,7 +18,7 @@ Lua is a light weight embeddable scripting language which is built on top of C. 
 ## Variables
 
 * By default all the variables declared are global variables
-* if the variables are explicitly mentioned as local then they are local variables.
+* If the variables are explicitly mentioned as local then they are local variables.
 * Lua is a dynamically typed language and hence only the values will have types not the variables.
 
 ### Examples
@@ -48,7 +48,7 @@ local x = 30
 
 ### 1. While:
 
-While is also used to iterate a set of statements based on a condition. Usually while is preferred when number of ierations is not known in advance.
+While is also used to iterate a set of statements based on a condition. Usually while is preferred when number of iterations are not known in advance.
 
 ```c
 while(condition)
@@ -77,7 +77,7 @@ end
 ```
 
 ##  Functions
-Function is a sub-routine which contains set of statements. Usually functions are written when multiple calls are required to same set of statements which increases re-usuability and modularity.
+Function is a sub-routine which contains set of statements. Usually functions are written when multiple calls are required to same set of statements which increase re-usuability and modularity.
 
 
 ```c
