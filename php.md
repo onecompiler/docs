@@ -33,7 +33,7 @@ PHP(Hypertext Preprocessor) is widely used server sripting language by Rasmus Le
 In PHP, there is no need to explicitly declare variables to reserve memory space. When you assign a value to a variable, declaration happens automatically. Variables are case-sensitive in PHP.
 
 ```php
-$variable-name = value;  
+$variable_name = value;  
 ```
 
 ## Loops
@@ -141,7 +141,7 @@ Function is a sub-routine which contains set of statements. Usually functions ar
 ### How to define a Function
 
 ```php
-func function_name(parameters) {  
+function function_name(parameters) {  
   //code
 }
 ```
