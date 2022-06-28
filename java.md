@@ -17,7 +17,7 @@ class Input {
 ```
 
 # Adding dependencies 
-OneCompiler supports Gradle for dependency management. Users can add dependencies in the `build.gradle` file and use them in their programs. When you add the dependencies for the first time, the first run might be a little slow as we download the dependencies but the subsequent runs will be faster. Following sample Gradle configuration shows how to add dependencies
+OneCompiler supports Gradle for dependency management. Users can add dependencies in the `build.gradle` file and use them in their programs. When you add the dependencies for the first time, the first run might be a little slow as we download the dependencies, but the subsequent runs will be faster. Following sample Gradle configuration shows how to add dependencies
 
 ```java
 apply plugin:'application'
@@ -32,7 +32,7 @@ repositories {
 
 dependencies {
     // add dependencies here as below
-    compile group: 'org.apache.commons', name: 'commons-lang3', version: '3.9'
+    implementation group: 'org.apache.commons', name: 'commons-lang3', version: '3.9'
 }
 ```
 # About Java
@@ -40,6 +40,21 @@ dependencies {
 Java is a very popular general-purpose programming language, it is class-based and object-oriented. Java was developed by James Gosling at Sun Microsystems ( later acquired by Oracle) the initial release of Java was in 1995. Java 17 is the latest long-term supported version (LTS). As of today, Java is the world's number one server programming language with a 12 million developer community, 5 million students studying worldwide and it's #1 choice for the cloud development.
 
 # Syntax help 
+
+## Variables
+
+```java
+short x = 999; 			// -32768 to 32767
+int   x = 99999; 		// -2147483648 to 2147483647
+long  x = 99999999999L; // -9223372036854775808 to 9223372036854775807
+
+float x = 1.2;
+double x = 99.99d;
+
+byte x = 99; // -128 to 127
+char x = 'A';
+boolean x = true;
+```
 
 ## Loops
 ### 1. If Else:
@@ -53,12 +68,22 @@ if(conditional-expression) {
   // code
 }
 ```
+Example: 
+
+```java
+int i = 10;
+if(i % 2 == 0) {
+  System.out.println("i is even number");
+} else {
+  System.out.println("i is odd number");
+}
+```
 ### 2. Switch:
 
 Switch is an alternative to If-Else-If ladder and to select one among many blocks of code.
 
 ```java
-switch(conditional-expression) {    
+switch(<conditional-expression>) {    
 case value1:    
  // code    
  break;  // optional  
@@ -77,7 +102,7 @@ For loop is used to iterate a set of statements based on a condition. Usually fo
 
 ```java
 for(Initialization; Condition; Increment/decrement){  
-//code  
+    //code  
 } 
 ```
 ### 4. While:
@@ -85,7 +110,7 @@ for(Initialization; Condition; Increment/decrement){
 While is also used to iterate a set of statements based on a condition. Usually while is preferred when number of iterations are not known in advance.
 
 ```java
-while(condition){  
+while(<condition>){  
  // code 
 }  
 ```
@@ -95,7 +120,7 @@ Do-while is also used to iterate a set of statements based on a condition. It is
 ```java
 do {
   // code 
-} while (condition); 
+} while (<condition>); 
 ```
 ## Classes and Objects
 
@@ -113,12 +138,11 @@ class Mobile {
     string name; // string variable (attribute)
     int price; // int variable (attribute)
 };
-
 ```
 ### How to create a Object:
 
 ```java
-Mobile m1;
+Mobile m1 = new Mobile();
 ```
 ### How to define methods in a class:
 
