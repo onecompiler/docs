@@ -1,5 +1,5 @@
 # Jshell online compiler
-Write, Run & Share Jshell code online using OneCompiler's Jshell online compiler for free. It's one of the robust, feature-rich online compilers for Jshell language, running the Jshell version 11. Getting started with the OneCompiler's Jshell editor is easy and fast. The editor shows sample boilerplate code when you choose language as Jshell and start coding. 
+Write, Run & Share Jshell code online using OneCompiler's Jshell online compiler for free. It's one of the robust, feature-rich online compilers for Jshell language, running the Jshell version 17. Getting started with the OneCompiler's Jshell editor is easy and fast. The editor shows sample boilerplate code when you choose language as Jshell and start coding. 
 
 # About Jshell
 
@@ -12,12 +12,22 @@ In short, Jshell creates a simple and easy programming environment in the comman
 
 ## Variables
 When you evaluate any valid java expression, the result will be stored in the system defined variables.
-
 You can also create your own variables
 
-### Syntax
 ```java
-datatype variable name = value;
+// datatype variable name = value;
+int age = 16; // example
+```
+
+## Taking inputs (stdin)
+By default Jshell creates a new VM to run the code which makes the System.in unavialble to use. OneCompiler has a workaround to this by adding `--execution local` param. User need to mention this in comments to make use of this option. Following is an example program to demonstrate this
+
+```java
+//--execution local
+Scanner input = new Scanner(System.in);
+System.out.println("Enter your name: ");
+String inp = input.next();
+System.out.println("Hello, " + inp);
 ```
 
 ## Control statements
@@ -26,31 +36,47 @@ datatype variable name = value;
 
 When ever you want to perform a set of operations based on a condition If-Else is used.
 
+Syntax:
+
 ```java
-if(conditional-expression) {
-  // code
+if(condition) {
+  // code when condition true
 } else {
-  // code
+  // code when condition false
 }
 ```
-### Example:
+
+Example:
+
 ```java
-int x = 3
-if(x%2 == 0) {
+int i = 3
+if( i%2 == 0 ) {
    System.out.println("Even number");
 } else {
    System.out.println("Odd number");
 }
 ```
+
 ### 2. For:
 
 For loop is used to iterate a set of statements based on a condition. Usually for loop is preferred when number of iterations is known in advance.
 
+Syntax:
+
 ```java
-for(Initialization; Condition; Increment/decrement){  
-//code  
+for( Initialization; Condition; Increment/decrement ){  
+  //code  
 } 
 ```
+
+Example: 
+
+```java
+for(int i = 1; i <= 10; i++ ){
+  Systen.out.println(i);
+}
+```
+
 ### 3. While:
 
 While is also used to iterate a set of statements based on a condition. Usually while is preferred when number of iterations are not known in advance.
