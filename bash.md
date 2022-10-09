@@ -29,14 +29,14 @@ echo "${name}"
 ### If
 
 ```sh
-if [ conditional-expression ];  
+if [ conditional-expression ]  
 then  
 statements  
 fi  
 ```
 ### If-else
 ```sh
-if [ conditional-expression ];  
+if [ conditional-expression ]  
 then  
    statements  
 else  
@@ -45,10 +45,10 @@ fi
 ```
 ### Else-If
 ```sh
-if [ conditional-expression ];  
+if [ conditional-expression ]  
 then  
    statements  
-elif [ conditional-expression ];  
+elif [ conditional-expression ]  
 then  
  statements  
 else  
