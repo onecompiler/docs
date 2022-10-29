@@ -84,7 +84,7 @@ console.log(squaresOfEvenNumbers);
 
 ### Arrays
 ```javascript
-let [firstName, lastName] = ['Foo', 'Bar']
+let [firstName, lastName] = ['Foo', 'Bar'];
 ```
 ### Objects
 ```javascript
@@ -113,7 +113,7 @@ const post = {
 const users = [
   ...adminUsers,
   ...normalUsers
-]
+];
 ```
 ## Functions 
 ```javascript
