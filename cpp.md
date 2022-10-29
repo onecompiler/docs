@@ -109,7 +109,7 @@ return_type function_name(parameters);
 ### How to call a Function:
 
 ```c
-function_name (parameters)
+function_name (parameters);
 ```
 ### How to define a Function:
 ```c
