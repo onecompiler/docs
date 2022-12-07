@@ -117,3 +117,4 @@ Following are the libraries supported by OneCompiler's Python compiler
 |SKLearn/Scikit-learn|Scikit-learn or Scikit-learn is the most useful library for machine learning in Python|
 |Pandas|Pandas is the most efficient Python library for data manipulation and analysis|
 |Matplotlib|Matplotlib is a cross-platform, data visualization and graphical plotting library for Python programming and it's numerical mathematics extension NumPy|
+|DOcplex|DOcplex is IBM Decision Optimization CPLEX Modeling for Python, is a library composed of Mathematical Programming Modeling and Constraint Programming Modeling|
