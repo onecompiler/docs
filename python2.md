@@ -24,9 +24,9 @@ Python is a very popular general-purpose programming language which was created 
 When ever you want to perform a set of operations based on a condition IF-ELSE is used.
 
 ```py
-if conditional-expression
+if conditional-expression:
     #code
-elif conditional-expression
+elif conditional-expression:
     #code
 else:
     #code
