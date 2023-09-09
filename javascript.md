@@ -16,6 +16,21 @@ Javascript(JS) is a object-oriented programming language which adhere to ECMA Sc
 
 # Syntax help
 
+## STDIN Example
+
+```javascript
+var readline = require('readline');
+var rl = readline.createInterface({
+  input: process.stdin,
+  output: process.stdout,
+  terminal: false
+});
+
+rl.on('line', function(line){
+    console.log("Hello, " + line);
+});
+```
+
 ## variable declaration
 
 |Keyword|Description|Scope|
@@ -27,7 +42,7 @@ Javascript(JS) is a object-oriented programming language which adhere to ECMA Sc
 ## Backtick Strings
 
 ### Interpolation
-```
+```javascript
 let greetings = `Hello ${name}`
 ```
 ### Multi line Strings
