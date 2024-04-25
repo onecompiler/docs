@@ -4,7 +4,7 @@ Write, Run & Share Oracle queries online using OneCompiler's Oracle online edito
 
 # About Oracle
 
-Oracle Database is world's most popular database built by Oracle Corporation. It is a multi-model database management system.
+Oracle Database is world's most popular database built by Oracle Corporation. It is a multi-model database management system. It's known for its robustness, scalability, and comprehensive feature set, making it popular for enterprise-level applications and large-scale data management.
 
 # Syntax help
 
