@@ -1,6 +1,6 @@
-# Oracle online editor
+# Oracle Online Compiler
 
-Write, Run & Share Oracle queries online using OneCompiler's Oracle online editor and compiler for free. It's one of the robust, feature-rich online editor and compiler for Oracle. Getting started with the OneCompiler's Oracle editor is really simple and pretty fast. The editor shows sample boilerplate code when you choose language as 'Oracle' and start writing queries to learn and test online without worrying about tedious process of installation.
+Write, Run & Share Oracle queries online using OneCompiler's Oracle online editor and compiler for free. It's one of the robust, feature-rich online editor and compiler for Oracle running on latest version 23c (23.3.0.0). Getting started with the OneCompiler's Oracle editor is really simple and pretty fast. The editor shows sample boilerplate code when you choose language as 'Oracle' and start writing queries to learn and test online without worrying about tedious process of installation.
 
 # About Oracle
 
