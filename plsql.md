@@ -40,10 +40,11 @@ hello_user
 IS
 BEGIN
    RETURN 'Hello ' || user_name;
-END hello_message;
+END hello_user;
+/
 
 BEGIN
-   hello_user('Peter');
+   dbms_output.put_line(hello_user('Peter'));
 END;
 /
 ```
@@ -52,10 +53,10 @@ END;
 
 ```sql
 BEGIN
-  DBMS_OUTPUT.put_line ("Hello, World!");
+  DBMS_OUTPUT.put_line (1/0);
 EXCEPTION
   WHEN OTHERS
   THEN
-    DBMS_OUTPUT.put_line (SQLERRM);
+    DBMS_OUTPUT.put_line ('error is: ' || SQLERRM);
 END;
 ```
