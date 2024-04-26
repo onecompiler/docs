@@ -2,9 +2,9 @@
 
 Write, Run & Share PL/SQL code online using OneCompiler's Oracle PL/SQL online editor and compiler for free. It's one of the robust, feature-rich online editor and compiler for Oracle PL/SQL running on latest version 23c (23.3.0.0). Getting started with the OneCompiler's Oracle PL/SQL editor is really simple and pretty fast. The editor shows sample boilerplate code when you choose language as 'PL/SQL' and start writing code to learn and test online without worrying about tedious process of installation.
 
-# About Oracle
+# About PL/SQL
 
-PL/SQL is procedural extension for SQL created by Oracle. It is by default embedded into the Oracle Database. PL/SQL program units are compiled stored inside the Oracle Database which results in optimal execution times as the PL/SQL and SQL run within the same server process.
+PL/SQL is procedural extension for SQL created by Oracle. It is by default embedded into the Oracle Database. PL/SQL program units are compiled and stored inside the Oracle Database which results in optimal execution times as the PL/SQL and SQL run within the same server process.
 
 # Syntax help
 
