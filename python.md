@@ -90,8 +90,8 @@ Set is a collection which is unordered and unindexed. Sets are specified in curl
 
 ### Example:
 ```py
-myset{"iPhone","Pixel","Samsung"}
-print{myset}
+myset = {"iPhone","Pixel","Samsung"}
+print(myset)
 ```
 
 ### 4. Dictionary:
