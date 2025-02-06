@@ -40,8 +40,8 @@ There is no need to specify the type of the data in Perl as it is loosely typed 
 In Perl, there is no need to explicitly declare variables to reserve memory space. When you assign a value to a variable, declaration happens automatically.
 
 ```perl
-$var-name =value; #scalar-variable
-@arr-name = (values); #Array-variables
+$var-name =value;            #scalar-variable
+@arr-name = (values);        #Array-variables
 %hashes = (key-value pairs); # Hash-variables 
 ```
 ## Loops
