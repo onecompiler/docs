@@ -81,15 +81,15 @@ Switch is an alternative to If-Else-If ladder and to select one among many block
 ```java
 switch(conditional-expression) {    
 case value1:    
- // code    
+          // code    
  break;  // optional  
 case value2:    
- // code    
+         // code    
  break;  // optional  
 ...    
     
 default:     
- //code to be executed when all the above cases are not matched;    
+         //code to be executed when all the above cases are not matched;    
 } 
 ```
 
