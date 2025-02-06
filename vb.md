@@ -10,7 +10,7 @@ OneCompiler's VB.net online editor supports stdin and users can give inputs to p
 Public Module Program
 	Public Sub Main(args() As string)
 	 Dim name as String = Console.ReadLine()    ' Reading input from STDIN
-   Console.WriteLine("Hello " & name)           ' Writing output to STDOUT
+   Console.WriteLine("Hello " & name)               ' Writing output to STDOUT
 	End Sub
 End Module
 ```
@@ -57,7 +57,7 @@ End If
 If(conditional-expression)Then
    'code if the conditional-expression is true 
 Else
-  'code if the conditional-expression is false 
+   'code if the conditional-expression is false 
 End If
 ```
 
@@ -65,7 +65,7 @@ End If
 
 ```vb
 If(conditional-expression)Then
-   'code if the above conditional-expression is true 
+        'code if the above conditional-expression is true 
 Else If(conditional-expression) Then
         'code if the above conditional-expression is true 
     Else
@@ -77,7 +77,7 @@ End If
 
 ```vb
 If(conditional-expression)Then
-   'code if the above conditional-expression is true
+         'code if the above conditional-expression is true
    If(conditional-expression)Then
          'code if the above conditional-expression is true 
    End If
