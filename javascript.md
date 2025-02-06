@@ -132,12 +132,12 @@ const users = [
 ```
 ## Functions 
 ```javascript
-function greetings({ name = 'Foo' } = {}) { //Defaulting name to Foo
+function greetings({ name = 'Foo' } = {}) {  //Defaulting name to Foo
   console.log(`Hello ${name}!`);
 }
  
-greet() // Hello Foo
-greet({ name: 'Bar' }) // Hi Bar
+greet()                                      // Hello Foo
+greet({ name: 'Bar' })                       // Hi Bar
 ```
 ## Loops
 ### 1. If:
