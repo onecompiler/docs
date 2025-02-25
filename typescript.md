@@ -92,7 +92,7 @@ for(Initialization; Condition; Increment/decrement){
 
 let arr = [1, 2, 3, 4, 5];
 for (let ele of arr) {
- // code
+// code
 }
 
 for (let index in arr) {
@@ -149,5 +149,5 @@ function Addition(a: any, b:any): any {
     return a + b;
 }
 Addition("Hello ","foo"); // outputs Hello foo
-Addition(2,3); //outpus 5
+Addition(2,3);            //outpus 5
 ```
