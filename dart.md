@@ -5,7 +5,7 @@ Write, Run & Share Dart code online using OneCompiler's Dart online compiler for
 # Taking inputs (stdin)
 OneCompiler's Dart online editor supports stdin, and users can provide inputs to programs using the STDIN textbox under the I/O tab. The following is a sample Dart program that takes a name as input and prints a greeting message.
 
-```dart
+```java
 import 'dart:io';
 
 void main() {
@@ -28,7 +28,7 @@ Dart is an open-source, general-purpose programming language developed by Google
 
 ### Examples
 
-```dart
+```java
 // Explicitly typed variables
 int a = 10;
 String name = "OneCompiler";
@@ -40,6 +40,7 @@ var x = 30;
 final String appName = "OneCompiler";
 const double pi = 3.14;
 ```
+
 
 | Value Type | Description |
 |------------|------------|
@@ -59,7 +60,7 @@ const double pi = 3.14;
 ### 1. While:
 The `while` loop is used to execute a set of statements while a condition holds true.
 
-```dart
+```java
 while (condition) {
   // code
 }
@@ -68,7 +69,7 @@ while (condition) {
 ### 2. Do-While:
 The `do-while` loop executes the code at least once before checking the condition.
 
-```dart
+```java
 do {
   // code
 } while (condition);
@@ -77,7 +78,7 @@ do {
 ### 3. For:
 The `for` loop is used when the number of iterations is known in advance.
 
-```dart
+```java
 for (int i = 0; i < 5; i++) {
   // code
 }
@@ -86,7 +87,7 @@ for (int i = 0; i < 5; i++) {
 ### 4. For-in:
 Used for iterating over collections like lists or sets.
 
-```dart
+```java
 List<String> names = ['Alice', 'Bob', 'Charlie'];
 for (String name in names) {
   print(name);
@@ -96,7 +97,7 @@ for (String name in names) {
 ### 5. ForEach:
 An alternative way to iterate over collections.
 
-```dart
+```java
 names.forEach((name) {
   print(name);
 });
@@ -105,7 +106,7 @@ names.forEach((name) {
 ## Functions
 A function is a reusable block of code that performs a specific task.
 
-```dart
+```java
 // Function with return type
 int add(int a, int b) {
   return a + b;
