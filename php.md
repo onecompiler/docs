@@ -82,15 +82,15 @@ Switch is used to execute one set of statement from multiple conditions.
 ```php
 switch(conditional-expression) {    
 case value1:    
- // code if the above value is matched    
- break;  // optional  
+           // code if the above value is matched    
+ break;   // optional  
 case value2:    
- // code if the above value is matched    
+         // code if the above value is matched    
  break;  // optional  
 ...    
     
 default:     
- // code to be executed when all the above cases are not matched;    
+        // code to be executed when all the above cases are not matched;    
 } 
  
 ```
@@ -106,7 +106,7 @@ for(Initialization; Condition; Increment/decrement){
 ```
 #### For-each:
 ```php
-// you can use any of the below syntax
+     // you can use any of the below syntax
 foreach ($array as $element-value) {  
     //code  
 }
