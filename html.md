@@ -13,7 +13,7 @@ HTML(Hyper Text Markup language) is the standard markup language for Web pages, 
 * Any HTML document must start with document declaration `<!DOCTYPE html>`
 * HTML documents begin with `<html>` and ends with `</html>`
 * Headings are defined with `<h1>` to `<h6>` where `<h1>` is the highest important heading and `<h6>` is the least important sub-heading.
-* Paragrahs are defined in `<p>..</p>` tag.
+* Paragraphs are defined in `<p>..</p>` tag.
 * Links are defined in `<a>` tag.
     #### Example:
     ```
