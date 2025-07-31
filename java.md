@@ -44,14 +44,14 @@ Java is a very popular general-purpose programming language, it is class-based a
 ## Variables
 
 ```java
-short x = 999; 			// -32768 to 32767
-int   x = 99999; 		// -2147483648 to 2147483647
-long  x = 99999999999L; // -9223372036854775808 to 9223372036854775807
+short x = 999; 			   // -32768 to 32767
+int   x = 99999;                   // -2147483648 to 2147483647
+long  x = 99999999999L;            // -9223372036854775808 to 9223372036854775807
 
 float x = 1.2;
 double x = 99.99d;
 
-byte x = 99; // -128 to 127
+byte x = 99;                       // -128 to 127
 char x = 'A';
 boolean x = true;
 ```
@@ -134,9 +134,9 @@ Class is the blueprint of an object, which is also referred as user-defined data
 
 ```java
 class Mobile {
-    public:    // access specifier which specifies that accessibility of class members 
-    string name; // string variable (attribute)
-    int price; // int variable (attribute)
+    public:        // access specifier which specifies that accessibility of class members 
+    string name;   // string variable (attribute)
+    int price;    // int variable (attribute)
 };
 ```
 ### How to create a Object:

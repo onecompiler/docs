@@ -104,10 +104,10 @@ Switch is an alternative to If-Else-If ladder.
 ```go
 switch conditional-expression {    
 case value1:    
- // code    
+         // code    
  break;  // optional  
 case value2:    
- // code    
+         // code    
  break;  // optional  
 ...    
     

@@ -55,15 +55,15 @@ Switch is an alternative to if-else-if ladder.
 ```c
 switch(conditional-expression) {    
 case value1:    
- // code    
- break;  // optional  
+            // code    
+ break;    // optional  
 case value2:    
- // code    
- break;  // optional  
+           // code    
+ break;    // optional  
 ...    
     
 default:     
- // code to be executed when all the above cases are not matched;    
+          // code to be executed when all the above cases are not matched;    
 } 
 ```
 ### 3. For:
